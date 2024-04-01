@@ -1,0 +1,54 @@
+Data is from https://layoffs.fyi/
+
+Data is on two xlsx files layoffs2023_data and biggest_layoffs
+
+Web scraping on Dec. 25th 2023
+
+Web scraping on march 30th 2024 for I. Q 2024
+
+Printed table to a pdf file than created with Adobe Acrobat Reader a xlsx file.
+
+Data cleaning - removed from location column non-USA. 
+
+Added two columns: company size before layoff and company size after layoffs.
+
+Data cleaning biggist_layoffs: modified companies names, add four new columns: day.month, year, country and continent 
+
+Data cleaning layoffs2023_data: modified companies names, add two new columns: country and continent 
+
+Observations biggist_layoffs: There is a lot off missing data for the columns laid off and in Percent.
+
+To delete all pictures from a sheet in Excel, you can follow these steps:
+
+Click on the "View" tab in the Excel ribbon.
+Click on the "Normal" button in the "Workbook Views" group to switch to Normal view.
+Now, press "Ctrl" + "G" to open the "Go To" dialog box.
+Click on the "Special" button in the "Go To" dialog box.
+In the "Go To Special" dialog box, select the "Objects" option and click "OK". This will select all objects in the worksheet, including pictures.
+Press the "Delete" key on your keyboard to delete all selected objects, including pictures.
+
+Technical Questions:
+
+How can I create maps of the locations of the headquarters?
+
+How can I create timelines of the layoffs?
+
+How to deal with the N/As?
+
+How to make charts with the number of layoffs by company?
+
+How to show companies that laid off all employees?
+
+
+Dataset questions:
+
+Understanding Money_Raised_in_$_mil" 
+
+
+Interpreting the Dataset:
+
+Size of companies in Dataset
+
+Day01: Started data analysis 
+Day02: Continue data analysis- countries and locations overview 
+

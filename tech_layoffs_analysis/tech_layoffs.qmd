@@ -1,0 +1,1552 @@
+---
+title: "tech_layoffs_2023_without_na"
+format: docx
+editor: visual
+---
+
+## Reported layoffs in Tech Companies in 2020 - 2023/24 - Dataset without NAs
+
+Data is from https://layoffs.fyi/
+
+Web scraping on Dec. 25th 2023 + Jan 14th 2024
+
+Printed table to a pdf file than created with Adobe Acrobat Reader a xlsx file.
+
+Data cleaning - removed from location column non-USA.
+
+Added two columns: company size before layoff and company size after layoffs.
+
+Data cleaning layoffs2023_data: modified companies names, added new columns: country, continent and coordinates
+
+Observations: There is a lot off missing data for the columns laid off and in Percent.
+
+**Libraries:**
+
+```{r, echo = FALSE}
+
+library(readxl)
+library(tidyverse)
+library(dplyr)
+library(knitr)
+library(ggplot2)
+library(skimr)
+library(viridis)
+library(patchwork)
+```
+
+**Dataset:**
+
+```{r, echo = FALSE}
+
+Tech_layoffs_geo <- read_excel(".../tech_layoffs.xlsx")
+```
+
+**Removing rows with missing values from Dataset:**
+
+```{r, echo = FALSE}
+
+# Tech_layoffs_geo <- na.omit(Layoffs_Tracker)
+
+```
+
+**First view of Dataset:**
+
+```{r, echo = FALSE}
+
+skim(Tech_layoffs_geo)
+
+
+mean(Tech_layoffs_geo$Company_Size_before_Layoffs)
+median(Tech_layoffs_geo$Company_Size_before_Layoffs)
+
+mean(Tech_layoffs_geo$Company_Size_after_layoffs)
+median(Tech_layoffs_geo$Company_Size_after_layoffs)
+
+head(Tech_layoffs_geo)
+```
+
+**New column latitude and longitude**
+
+```{r, echo = FALSE}
+
+#  install.packages("tidyr")
+
+# library(tidyr)
+
+# Tech_layoffs_geo <- separate(
+ # Tech_layoffs_geo,
+  #Coordinates,
+  #into = c("lat", "lng"),
+  #sep = ", ",
+  #convert = TRUE
+#)
+
+# library(writexl)
+# write_xlsx(Tech_layoffs_geo, "tech_layoffs.xlsx")
+
+# Check column names
+colnames(Tech_layoffs_geo)
+
+```
+
+**Styles:**
+
+```{r, echo = FALSE}
+
+my_palette_custom_all <- c("#34f5ff", "#33eff9", "#32e9f3", "#32e3ec", "#31dde6", "#30d7e0", "#2fd1da", "#2fcbd4", "#2ec6cd", "#2dc0c7", "#2cbac1", "#2cb4bb", "#2baeb5", "#2aa8ae", "#29a2a8", "#299ca2", "#28969c", "#279095", "#268a8f", "#268489", "#257e83", "#24787d", "#237376", "#236d70", "#22676a", "#216164", "#205b5e", "#205557", "#1f4f51", "#1e494b", "#fcff4f", "#f5f955", "#edf35b", "#e6ed61", "#dee767", "#d7e16d", "#cfdb73", "#c8d579", "#c0d080", "#b9ca86", "#b1c48c", "#aabe92", "#a2b898", "#9bb29e", "#93aca4", "#8ca6aa", "#84a0b0", "#7d9ab6", "#7594bc", "#6e8ec2", "#6688c8", "#5f82ce", "#577dd5", "#5077db", "#4871e1", "#416be7", "#3965ed", "#325ff3", "#2a59f9", "#2353ff","#1531ff", "#1631fa", "#1630f6", "#1730f1", "#1730ed", "#182fe8", "#182fe3", "#192fdf", "#192fda", "#1a2ed5", "#1a2ed1", "#1b2ecc", "#1b2dc8", "#1c2dc3", "#1c2dbe", "#1d2cba", "#1d2cb5", "#1e2cb0", "#1e2bac", "#1f2ba7", "#1f2ba3", "#202a9e", "#202a99", "#212a95", "#212a90", "#22298b", "#222987", "#232982", "#23287e", "#242879", "#ff6d2a", "#f86a31", "#f16639", "#ea6340", "#e35f47", "#dc5c4f", "#d55856", "#ce555d", "#c85165", "#c14e6c", "#ba4b73", "#b3477b", "#ac4482", "#a54089", "#9e3d91", "#973998", "#9036a0", "#8932a7", "#822fae", "#7b2bb6", "#7428bd", "#6d25c4", "#6721cc", "#601ed3", "#591ada", "#5217e2", "#4b13e9", "#4410f0", "#3d0cf8", "#3609ff", "#fbffae", "#f3f9ab", "#ecf2a7", "#e4eca4", "#dde6a0", "#d5e09d", "#cdd99a", "#c6d396", "#becd93", "#b6c78f", "#afc08c", "#a7ba88", "#a0b485", "#98ad82", "#90a77e", "#89a17b", "#819b77", "#799474", "#728e71", "#6a886d", "#63816a", "#5b7b66", "#537563", "#4c6f5f", "#44685c", "#3c6259", "#355c55", "#2d5652", "#264f4e", "#1e494b")
+
+my_palette_TealGrn <- paletteer::paletteer_c("grDevices::TealGrn", 30)
+my_palette_Blue_Yellow <- paletteer::paletteer_c("grDevices::Blue-Yellow", 30)
+
+my_colors <- c("darkblue", "darkslategray4", "darkslategray2","yellow", "azure3", "aquamarine2", "cornflowerblue", "lightyellow", "cadetblue2","blue1","cyan", "azure1", "aquamarine", "darkgoldenrod1", "cadetblue", "blue2","cyan1", "deepskyblue2", "darkslategray1", "darkgoldenrod2", "azure2", "aquamarine3", "cadetblue3", "blue3", "cyan2", "deepskyblue3", "darkslategray3", "azure", "cyan3", "blue4", "deepskyblue4", "cadetblue4", "lightyellow", "deepskyblue1","lightblue","darkgoldenrod", "deepskyblue")
+
+my_colors5 <- c("yellow", "#deff25", "#44c6b7", "#601ed3", "#190fe4")
+my_colors3 <- c("yellow", "#190fe4", "#44c6b7")
+```
+
+```{r custom_theme, echo = FALSE}
+
+custom_theme_black_nolegend <- function() {
+  theme(
+    plot.background = element_rect(fill = "black"),
+    panel.background = element_rect(fill = "black"),
+    panel.grid.major = element_line(color = "azure"),
+    panel.grid.minor = element_blank(),
+    
+    axis.line = element_line(color = "white"),
+    axis.text = element_text(color = "white"),
+    axis.title = element_text(color = "white", size = 10, face = "bold"),
+    axis.ticks = element_line(color = "white"),
+    legend.position = "none",
+    
+    plot.title = element_text(color = "white", size = 12, face = "bold"),
+    plot.subtitle = element_text(color = "white", size = 9),
+    
+    plot.caption = element_text(color = "white", size = 10),
+    plot.tag = element_text(color = "white", size = 9, face = "bold"),
+    
+    panel.border = element_blank()
+  )
+}
+
+custom_theme_white_nolegend <- function() {
+  theme(
+    plot.background = element_rect(fill = "white"),
+    panel.background = element_rect(fill = "white"),
+    panel.grid.major = element_line(color = "azure2"),
+    panel.grid.minor = element_blank(),
+    
+    axis.line = element_line(color = "black"),
+    axis.text = element_text(color = "black"),
+    axis.title = element_text(color = "black", size = 10, face = "bold"),
+    axis.ticks = element_line(color = "black"),
+    legend.position = "none",
+    
+    plot.title = element_text(color = "black", size = 12, face = "bold"),
+    plot.subtitle = element_text(color = "black", size = 9),
+    
+    plot.caption = element_text(color = "black", size = 10),
+    plot.tag = element_text(color = "black", size = 9, face = "bold"),
+    
+    panel.border = element_blank()
+  )
+}
+
+custom_theme_white <- function() {
+  #theme_minimal() %+replace%  
+  theme(
+    # Define the overall appearance of the plot
+    plot.background = element_rect(fill = "white"),
+    panel.background = element_rect(fill = "white"),
+    panel.grid.major = element_line(color = "azure2"),
+    panel.grid.minor = element_blank(),
+    
+    # Define the appearance of the axes
+    axis.line = element_line(color = "black"),
+    axis.text = element_text(color = "black"),
+    axis.title = element_text(color = "black", size = 10, face = "bold"),
+    axis.ticks = element_line(color = "black"),
+    
+    # Define the appearance of the legend
+    legend.background = element_rect(fill = "white"),
+    legend.title = element_text(color = "white", size = 10, face = "bold"),
+    legend.text = element_text(color = "black", size = 9),
+    
+    # Define the appearance of the plot title and subtitles
+    plot.title = element_text(color = "black", size = 12, face = "bold"),
+    plot.subtitle = element_text(color = "black", size = 9),
+    
+    # Define the appearance of the plot labels
+    plot.caption = element_text(color = "black", size = 10),
+    plot.tag = element_text(color = "black", size = 9, face = "bold"),
+    
+    # Remove the plot border
+    panel.border = element_blank()
+  )
+}
+```
+
+**Overview:**
+
+```{r, echo = FALSE}
+unique_countries <- Tech_layoffs_geo %>%
+  distinct(Country) %>%
+  summarise(Count = n()) %>%
+  mutate(Message = paste("There are", Count, "unique countries in the dataset"))
+
+print(unique_countries$Message)
+
+```
+
+**List of the countries in the dataset with companies with reported layoffs in 2023**
+
+```{r, echo = FALSE}
+unique_country_list_na <- unique(Tech_layoffs_geo$Country)
+unique_country_list_na <- sort(unique_country_list_na)
+
+# View the list of unique countries
+# print(unique_country_list_na)
+
+```
+
+**Entries in Dataset:**
+
+```{r, echo = FALSE}
+entries_count_na <- nrow(Tech_layoffs_geo)
+print(paste("The dataset has", entries_count_na, "entries."))
+```
+
+**Companies in Dataset:**
+
+```{r, echo = FALSE}
+unique_companies_na <- Tech_layoffs_geo %>%
+  distinct(Company) %>%
+  summarise(Count = n()) %>%
+  mutate(Message = paste("There are", Count, "unique companies in the dataset"))
+
+print(unique_companies_na$Message)
+
+```
+
+**Reported layoffs counted - going by country and continent:**
+
+```{r, echo = FALSE}
+continent_count_na <- Tech_layoffs_geo %>% 
+  count(Continent)
+
+continent_count_desc_na <- continent_count_na |> 
+  arrange(desc(n))
+continent_count_desc_na
+
+country_count_na <- Tech_layoffs_geo %>% 
+  count(Country)
+
+country_count_desc_na <- country_count_na %>% 
+  arrange(desc(n))
+
+country_count_desc_na
+
+top_10_countries_na <- head(country_count_desc_na, 10)
+# top_10_countries_na
+
+```
+
+**Reported Layoffs by city (Location_HQ)**
+
+```{r, echo = FALSE}
+#Example countries
+city_count_na <- Tech_layoffs_geo %>% 
+  count(Location_HQ)
+
+city_count_desc_na <- city_count_na %>% 
+  arrange(desc(n))
+
+# city_count_desc_na
+
+cat("\n")
+
+top_10_city_na <- head(city_count_desc_na, 10)
+top_10_city_na
+
+cat("\n")
+
+unique_city_list_na <- unique(Tech_layoffs_geo$Location_HQ)
+unique_city_list_na <- sort(unique_city_list_na)
+
+# View the list of unique countries
+print(unique_city_list_na)
+
+```
+
+**Barplot: Continent count**
+
+```{r, echo = FALSE}
+ggplot(continent_count_desc_na, aes(x = reorder(Continent, -n), y = n, fill = Continent)) +
+  geom_bar(stat = "identity") +
+  labs(x = "Continent", y = "Count") +
+  scale_fill_manual(values = my_palette_Blue_Yellow)  +
+  ggtitle("Most reported layoffs by continent") +
+  custom_theme_white_nolegend()
+
+```
+
+**Barplot: Countries**
+
+```{r, echo = FALSE}
+
+ggplot(country_count_desc_na, aes(x = reorder(Country, -n), y = n, fill = Country)) +
+  geom_bar(stat = "identity") +
+  labs(x = "Country", y = "Count") +
+  scale_fill_manual(values = my_palette_custom_all)  +
+  ggtitle("Most reported layoffs by country") +
+  custom_theme_white_nolegend()  +
+  coord_flip()
+
+
+# Modifying the polar bar chart to add labels
+# ggplot(country_count_desc_na, aes(x = "", y = n, fill = `Country`)) +
+#   geom_bar(stat = "identity", width = 1) +
+#   coord_polar("y", start = 0) +
+#   labs(fill = "Country") +
+#   ggtitle("Reported Layoffs 2023 - Most reported layoffs by \n Country (counted)") +
+#   scale_fill_manual(values = my_palette_custom_all) +
+#   geom_label(aes(y = n/2, label = paste0(n/10, "%")), size = 4.5) + # Add labels
+#   theme_void() +
+#   custom_theme_white_nolegend()
+
+
+```
+
+**Barplot: TOP 10 Countries**
+
+```{r, echo = FALSE}
+
+ggplot(top_10_countries_na, aes(x = Country, y = n, fill = Country)) +
+  geom_bar(stat = "identity") +
+  labs(title = "Most reported layoffs by Location", subtitle = "Bar plot of TOP 10 country counts", fill = "Country") +
+   scale_fill_manual(values = my_palette_Blue_Yellow) +
+  coord_flip() +
+  custom_theme_white_nolegend()
+```
+
+**Reported layoffs counted - going by location Headquarters, continent and country:**
+
+**North America:**
+
+```{r, echo = FALSE}
+north_america_locations_2023_na <- Tech_layoffs_geo %>%
+  filter(Continent == "North America") %>%
+  count(`Location_HQ`) %>%
+  arrange(desc(n))
+
+unique_north_american_locations_na <- Tech_layoffs_geo %>%
+  filter(Continent == "North America") %>%
+  distinct(`Location_HQ`) %>%
+  summarise(Count = n()) %>%
+  mutate(Message = paste("There are", Count, "unique HQ locations for North America in the dataset"))
+
+print(unique_north_american_locations_na$Message)
+
+cat("\n")
+
+unique_HQ_list_north_america_na <- unique(north_america_locations_2023_na$`Location_HQ`)
+unique_HQ_list_north_america_na <- sort(unique_HQ_list_north_america_na)
+
+print(unique_HQ_list_north_america_na)
+
+cat("\n")
+
+entries_north_america_count_na <- Tech_layoffs_geo %>%
+  filter(Continent == "North America") %>%
+  nrow()
+  
+print(paste("The dataset North America has", entries_north_america_count_na, "entries."))
+
+cat("\n")
+
+unique_north_america_companies_na <- Tech_layoffs_geo %>%
+  filter(Continent == "North America") %>%
+  distinct(Company) %>%
+  summarise(Count = n()) %>%
+  mutate(Message = paste("There are", Count, "unique companies for North America in the dataset"))
+
+print(unique_north_america_companies_na$Message)
+
+cat("\n")
+
+Top_5_North_America_locations_na <- head(north_america_locations_2023_na, 5)
+Top_5_North_America_locations_na
+
+cat("\n")
+
+north_america_countries_2023_na <- Tech_layoffs_geo %>%
+  filter(Continent == "North America") %>%
+  count(`Country`) |> 
+  arrange(desc(n))
+north_america_countries_2023_na
+```
+
+**Charts North America:**
+
+```{r, echo = FALSE}
+
+ggplot(Top_5_North_America_locations_na, aes(x = reorder(Location_HQ, -n), y = n, fill = Location_HQ)) +
+  geom_bar(stat = "identity") +
+  labs(x = "Location_HQ", y = "Count") +
+  ggtitle("Most reported layoffs in North America \n by Location HQ") +
+   scale_fill_manual(values = my_palette_Blue_Yellow) +
+  coord_flip() +
+  custom_theme_white_nolegend()
+```
+
+**South America:**
+
+```{r, echo = FALSE}
+south_america_locations_2023_na <- Tech_layoffs_geo %>%
+  filter(Continent == "South America") %>%
+  count(`Location_HQ`) |> 
+  arrange(desc(n))
+south_america_locations_2023_na
+
+unique_south_american_locations_na <- Tech_layoffs_geo %>%
+  filter(Continent == "South America") %>%
+  distinct(`Location_HQ`) %>%
+  summarise(Count = n()) %>%
+  mutate(Message = paste("There are", Count, "unique HQ locations for South America in the dataset"))
+
+print(unique_south_american_locations_na$Message)
+
+cat("\n")
+
+unique_HQ_list_south_america_na <- unique(south_america_locations_2023_na$`Location_HQ`)
+unique_HQ_list_south_america_na <- sort(unique_HQ_list_south_america_na)
+
+print(unique_HQ_list_south_america_na)
+
+cat("\n")
+
+entries_south_america_count_na <- Tech_layoffs_geo %>%
+  filter(Continent == "South America") %>%
+  nrow()
+  
+print(paste("The dataset South America has", entries_south_america_count_na, "entries."))
+
+cat("\n")
+
+unique_south_america_companies_na <- Tech_layoffs_geo %>%
+  filter(Continent == "South America") %>%
+  distinct(Company) %>%
+  summarise(Count = n()) %>%
+  mutate(Message = paste("There are", Count, "unique companies for South America in the dataset"))
+
+print(unique_south_america_companies_na$Message)
+
+cat("\n")
+
+Top_10_South_America_locations_na <- head(south_america_locations_2023_na, 10)
+# Top_10_South_America_locations_na
+
+south_america_countries_2023_na <- Tech_layoffs_geo %>%
+  filter(Continent == "South America") %>%
+  count(`Country`) |> 
+  arrange(desc(n))
+south_america_countries_2023_na
+
+```
+
+**Charts South America:**
+
+```{r, echo = FALSE}
+
+plot_SA01 <- ggplot(Top_10_South_America_locations_na, aes(x = reorder(Location_HQ, -n), y = n, fill = Location_HQ)) +
+  geom_bar(stat = "identity") +
+  labs(x = "Location_HQ", y = "Count") +
+  ggtitle("Most reported layoffs \n in South America byLocation HQ") +
+   scale_fill_manual(values = my_palette_Blue_Yellow) +
+  coord_flip() +
+  custom_theme_white_nolegend()
+
+
+plot_SA02 <- ggplot(south_america_countries_2023_na, aes(x = "", y = n, fill = Country)) +
+       geom_bar(stat = "identity", width = 1) +
+       coord_polar("y", start = 0) +
+       labs(fill = "Country") +
+       ggtitle("Reported Layoffs by Country in South America") +
+   scale_fill_manual(values = my_colors) +
+  custom_theme_white()
+
+# plot_SA01 + plot_SA02 + plot_layout(ncol= 2)
+
+plot_SA01
+plot_SA02
+```
+
+**Europe (with Turkey):**
+
+```{r, echo = FALSE}
+europe_locations_2023_na <- Tech_layoffs_geo %>%
+  filter(Continent == "Europe") %>%
+  count(`Location_HQ`) |> 
+  arrange(desc(n))
+# europe_locations_2023_na
+
+unique_europe_locations_na <- Tech_layoffs_geo %>%
+  filter(Continent == "Europe") %>%
+  distinct(`Location_HQ`) %>%
+  summarise(Count = n()) %>%
+  mutate(Message = paste("There are", Count, "unique HQ locations for Europe in the dataset"))
+
+print(unique_europe_locations_na$Message)
+
+cat("\n")
+
+unique_HQ_list_europe_na <- unique(europe_locations_2023_na$`Location_HQ`)
+unique_HQ_list_europe_na <- sort(unique_HQ_list_europe_na)
+
+print(unique_HQ_list_europe_na)
+
+cat("\n")
+
+entries_europe_count_na <- Tech_layoffs_geo %>%
+  filter(Continent == "Europe") %>%
+  nrow()
+  
+print(paste("The dataset Europe has", entries_europe_count_na, "entries."))
+
+cat("\n")
+
+unique_europe_companies_na <- Tech_layoffs_geo %>%
+  filter(Continent == "Europe") %>%
+  distinct(Company) %>%
+  summarise(Count = n()) %>%
+  mutate(Message = paste("There are", Count, "unique companies for Europe in the dataset"))
+
+print(unique_europe_companies_na$Message)
+
+cat("\n")
+
+Top_5_Europe_locations_na <- head(europe_locations_2023_na, 5)
+Top_5_Europe_locations_na
+
+Top_10_Europe_locations_na <- head(europe_locations_2023_na, 10)
+# Top_10_Europe_locations_na
+
+europe_countries_2023_na <- Tech_layoffs_geo %>%
+  filter(Continent == "Europe") %>%
+  count(`Country`) |> 
+  arrange(desc(n))
+europe_countries_2023_na
+
+Top_5_Europe_countries_na <- head(europe_countries_2023_na, 5)
+# Top_5_Europe_countries_na
+
+```
+
+**Charts Europe:**
+
+```{r, echo = FALSE}
+
+plot_E01 <- ggplot(Top_10_Europe_locations_na, aes(x = reorder(Location_HQ, -n), y = n, fill = Location_HQ)) +
+  geom_bar(stat = "identity") +
+  labs(x = "Location_HQ", y = "Count") +
+  ggtitle("Most reported layoffs in Europe by Location HQ") +
+   scale_fill_manual(values = my_palette_Blue_Yellow) +
+  coord_flip() +
+  custom_theme_white_nolegend()
+
+
+plot_E02 <- ggplot(europe_countries_2023_na, aes(x = "", y = n, fill = Country)) +
+       geom_bar(stat = "identity", width = 1) +
+       coord_polar("y", start = 0) +
+       labs(fill = "Country") +
+       ggtitle("Reported Layoffs by Country in Europe") +
+   scale_fill_manual(values = my_palette_Blue_Yellow) +
+  custom_theme_white()
+
+# plot_E01 + plot_E02 + plot_layout(ncol = 2)
+plot_E01
+plot_E02
+
+```
+
+**Asia:**
+
+```{r, echo = FALSE}
+asia_locations_2023_na <- Tech_layoffs_geo %>%
+  filter(Continent == "Asia") %>%
+  count(`Location_HQ`) |> 
+  arrange(desc(n))
+# asia_locations_2023_na
+
+unique_asia_locations_na <- Tech_layoffs_geo %>%
+  filter(Continent == "Asia") %>%
+  distinct(`Location_HQ`) %>%
+  summarise(Count = n()) %>%
+  mutate(Message = paste("There are", Count, "unique HQ locations for Asia in the dataset"))
+
+print(unique_asia_locations_na$Message)
+
+cat("\n")
+
+unique_HQ_list_asia_na <- unique(asia_locations_2023_na$`Location_HQ`)
+unique_HQ_list_asia_na <- sort(unique_HQ_list_asia_na)
+
+print(unique_HQ_list_asia_na)
+
+cat("\n")
+
+entries_asia_count_na <- Tech_layoffs_geo %>%
+  filter(Continent == "Asia") %>%
+  nrow()
+  
+print(paste("The dataset Asia has", entries_asia_count_na, "entries."))
+
+cat("\n")
+
+unique_asia_companies_na <- Tech_layoffs_geo %>%
+  filter(Continent == "Asia") %>%
+  distinct(Company) %>%
+  summarise(Count = n()) %>%
+  mutate(Message = paste("There are", Count, "unique companies for Asia in the dataset"))
+
+print(unique_asia_companies_na$Message)
+
+cat("\n")
+
+Top_5_Asia_locations_na <- head(asia_locations_2023_na, 5)
+Top_5_Asia_locations_na
+
+asia_countries_2023_na <- Tech_layoffs_geo %>%
+  filter(Continent == "Asia") %>%
+  count(`Country`) |> 
+  arrange(desc(n))
+asia_countries_2023_na
+
+Top_5_Asia_countries_na <- head(asia_countries_2023_na, 5)
+# Top_5_Asia_countries_na
+
+```
+
+**Asia Charts:**
+
+```{r, echo = FALSE}
+
+plot_AS01 <- ggplot(Top_5_Asia_locations_na, aes(x = reorder(Location_HQ, -n), y = n, fill = Location_HQ)) +
+  geom_bar(stat = "identity") +
+  labs(x = "Location_HQ", y = "Count") +
+  ggtitle("Most reported layoffs in Asia by Location HQ") +
+   scale_fill_manual(values = my_palette_Blue_Yellow) +
+  coord_flip() +
+  custom_theme_white_nolegend()
+
+
+plot_AS02 <- ggplot(asia_countries_2023_na, aes(x = "", y = n, fill = Country)) +
+       geom_bar(stat = "identity", width = 1) +
+       coord_polar("y", start = 0) +
+       labs(fill = "Country") +
+       ggtitle("Reported Layoffs by Country in Asia") +
+   scale_fill_manual(values = my_palette_Blue_Yellow) +
+  custom_theme_white()
+
+# plot_AS01 + plot_AS02 + plot_layout(ncol = 2)
+
+plot_AS01
+plot_AS02
+
+```
+
+**Africa:**
+
+```{r, echo = FALSE}
+africa_locations_2023_na <- Tech_layoffs_geo %>%
+  filter(Continent == "Africa") %>%
+  count(`Location_HQ`) |> 
+  arrange(desc(n))
+# africa_locations_2023_na
+
+unique_africa_locations_na <- Tech_layoffs_geo %>%
+  filter(Continent == "Africa") %>%
+  distinct(`Location_HQ`) %>%
+  summarise(Count = n()) %>%
+  mutate(Message = paste("There are", Count, "unique HQ locations for Africa in the dataset"))
+
+print(unique_africa_locations_na$Message)
+
+cat("\n")
+
+unique_HQ_list_africa_na <- unique(africa_locations_2023_na$`Location_HQ`)
+unique_HQ_list_africa_na <- sort(unique_HQ_list_africa_na)
+
+print(unique_HQ_list_africa_na)
+
+cat("\n")
+
+entries_africa_count_na <- Tech_layoffs_geo %>%
+  filter(Continent == "Africa") %>%
+  nrow()
+  
+print(paste("The dataset Africa has", entries_africa_count_na, "entries."))
+
+cat("\n")
+
+unique_africa_companies_na <- Tech_layoffs_geo %>%
+  filter(Continent == "Africa") %>%
+  distinct(Company) %>%
+  summarise(Count = n()) %>%
+  mutate(Message = paste("There are", Count, "unique companies for Africa in the dataset"))
+
+print(unique_africa_companies_na$Message)
+
+cat("\n")
+
+Top_5_Africa_locations_na <- head(africa_locations_2023_na, 5)
+Top_5_Africa_locations_na
+
+africa_countries_2023_na <- Tech_layoffs_geo %>%
+  filter(Continent == "Africa") %>%
+  count(`Country`) |> 
+  arrange(desc(n))
+africa_countries_2023_na
+
+```
+
+**Africa Chart:**
+
+```{r, echo = FALSE}
+
+plot_Af01 <- ggplot(Top_5_Africa_locations_na, aes(x = reorder(Location_HQ, -n), y = n, fill = Location_HQ)) +
+  geom_bar(stat = "identity") +
+  labs(x = "Location_HQ", y = "Count") +
+  ggtitle("Most reported layoffs in Africa by Location HQ") +
+   scale_fill_manual(values = my_palette_Blue_Yellow) +
+  coord_flip() +
+  custom_theme_white_nolegend()
+
+
+plot_Af02 <- ggplot(africa_countries_2023_na, aes(x = "", y = n, fill = Country)) +
+       geom_bar(stat = "identity", width = 1) +
+       coord_polar("y", start = 0) +
+       labs(fill = "Country") +
+       ggtitle("Reported Layoffs by Country in Africa") +
+   scale_fill_manual(values = my_colors) +
+  custom_theme_white()
+
+# plot_Af01 + plot_Af02 + plot_layout(ncol = 2)
+plot_Af01
+plot_Af02
+```
+
+**Australia:**
+
+```{r, echo = FALSE}
+australia_locations_2023_na <- Tech_layoffs_geo %>%
+  filter(Continent == "Australia") %>%
+  count(`Location_HQ`) |> 
+  arrange(desc(n))
+# australia_locations_2023_na
+
+unique_australia_locations_na <- Tech_layoffs_geo %>%
+  filter(Continent == "Australia") %>%
+  distinct(`Location_HQ`) %>%
+  summarise(Count = n()) %>%
+  mutate(Message = paste("There are", Count, "unique HQ locations for Australia in the dataset"))
+
+print(unique_australia_locations_na$Message)
+
+cat("\n")
+
+unique_HQ_list_australia_na <- unique(australia_locations_2023_na$`Location_HQ`)
+unique_HQ_list_australia_na <- sort(unique_HQ_list_australia_na)
+
+print(unique_HQ_list_australia_na)
+
+cat("\n")
+
+entries_australia_count_na <- Tech_layoffs_geo %>%
+  filter(Continent == "Australia") %>%
+  nrow()
+  
+print(paste("The dataset Australia has", entries_australia_count_na, "entries."))
+
+cat("\n")
+
+unique_australia_companies_na <- Tech_layoffs_geo %>%
+  filter(Continent == "Australia") %>%
+  distinct(Company) %>%
+  summarise(Count = n()) %>%
+  mutate(Message = paste("There are", Count, "unique companies for Australia in the dataset"))
+
+print(unique_australia_companies_na$Message)
+
+cat("\n")
+
+Top_5_Australia_locations_na <- head(australia_locations_2023_na, 5)
+Top_5_Australia_locations_na
+
+australia_countries_2023_na <- Tech_layoffs_geo %>%
+  filter(Continent == "Australia") %>%
+  count(`Country`) |> 
+  arrange(desc(n))
+australia_countries_2023_na
+```
+
+**Australia Charts:**
+
+```{r, echo = FALSE}
+
+plot_Au01 <- ggplot(Top_5_Australia_locations_na, aes(x = reorder(Location_HQ, -n), y = n, fill = Location_HQ)) +
+  geom_bar(stat = "identity") +
+  labs(x = "Location_HQ", y = "Count") +
+  ggtitle("Most reported layoffs in Australia by Location HQ") +
+   scale_fill_manual(values = my_palette_Blue_Yellow) +
+  coord_flip() +
+  custom_theme_white_nolegend()
+
+
+plot_Au02 <- ggplot(australia_countries_2023_na, aes(x = "", y = n, fill = Country)) +
+       geom_bar(stat = "identity", width = 1) +
+       coord_polar("y", start = 0) +
+       labs(fill = "Country") +
+       ggtitle("Reported Layoffs by Country in Australia") +
+   scale_fill_manual(values = my_colors) +
+  custom_theme_white()
+
+# plot_Au01 + plot_Au02 + plot_layout(ncol = 2)
+plot_Au01
+plot_Au02
+
+```
+
+**Countries in Focus**
+
+**USA**
+
+```{r, echo = FALSE}
+usa_locations_2023_na <- Tech_layoffs_geo %>%
+  filter(Country == "USA") %>%
+  count(`Location_HQ`) %>%
+  arrange(desc(n))
+
+# usa_locations_2023
+
+unique_usa_locations_na <- Tech_layoffs_geo %>%
+  filter(Country == "USA") %>%
+  distinct(`Location_HQ`) %>%
+  summarise(Count = n()) %>%
+  mutate(Message = paste("There are", Count, "unique HQ locations for the USA in the dataset"))
+
+print(unique_usa_locations_na$Message)
+
+cat("\n")
+
+unique_HQ_list_usa_na <- unique(usa_locations_2023_na$`Location_HQ`)
+unique_HQ_list_usa_na <- sort(unique_HQ_list_usa_na)
+
+print(unique_HQ_list_usa_na)
+
+cat("\n")
+
+entries_usa_count_na <- Tech_layoffs_geo %>%
+  filter(Country == "USA") %>%
+  nrow()
+  
+print(paste("The dataset USA has", entries_usa_count_na, "entries."))
+
+cat("\n")
+
+unique_usa_companies_na <- Tech_layoffs_geo %>%
+  filter(Country == "USA") %>%
+  distinct(Company) %>%
+  summarise(Count = n()) %>%
+  mutate(Message = paste("There are", Count, "unique companies in the USA in the dataset"))
+
+print(unique_usa_companies_na$Message)
+
+cat("\n")
+
+Top_5_USA_locations_na <- head(usa_locations_2023_na, 5)
+# Top_5_USA_locations_na
+
+Top_10_USA_locations_na <- head(usa_locations_2023_na, 10)
+Top_10_USA_locations_na
+
+```
+
+**USA Chart**
+
+```{r, echo = FALSE}
+
+ggplot(Top_10_USA_locations_na, aes(x = reorder(Location_HQ, -n), y = n, fill = Location_HQ)) +
+  geom_bar(stat = "identity") +
+  labs(x = "Location_HQ", y = "Count") +
+  ggtitle("Most reported layoffs in the USA \n by Location HQ") +
+   scale_fill_manual(values = my_palette_Blue_Yellow) +
+  coord_flip() +
+  custom_theme_white_nolegend()
+
+
+```
+
+**India**
+
+```{r, echo = FALSE}
+india_locations_2023_na <- Tech_layoffs_geo %>%
+  filter(Country == "India") %>%
+  count(`Location_HQ`) %>%
+  arrange(desc(n))
+
+# usa_locations_2023
+
+unique_india_locations_na <- Tech_layoffs_geo %>%
+  filter(Country == "India") %>%
+  distinct(`Location_HQ`) %>%
+  summarise(Count = n()) %>%
+  mutate(Message = paste("There are", Count, "unique HQ locations in India in the dataset"))
+
+print(unique_india_locations_na$Message)
+
+cat("\n")
+
+unique_HQ_list_india_na <- unique(india_locations_2023_na$`Location_HQ`)
+unique_HQ_list_india_na <- sort(unique_HQ_list_india_na)
+
+print(unique_HQ_list_india_na)
+
+cat("\n")
+
+entries_india_count_na <- Tech_layoffs_geo %>%
+  filter(Country == "India") %>%
+  nrow()
+  
+print(paste("The dataset India has", entries_india_count_na, "entries."))
+
+cat("\n")
+
+unique_india_companies_na <- Tech_layoffs_geo %>%
+  filter(Country == "India") %>%
+  distinct(Company) %>%
+  summarise(Count = n()) %>%
+  mutate(Message = paste("There are", Count, "unique companies in India in the dataset"))
+
+print(unique_india_companies_na$Message)
+
+cat("\n")
+
+Top_5_india_locations_na <- head(india_locations_2023_na, 3)
+Top_5_india_locations_na
+```
+
+**India Chart:**
+
+```{r, echo = FALSE}
+
+ggplot(Top_5_india_locations_na, aes(x = reorder(Location_HQ, -n), y = n, fill = Location_HQ)) +
+  geom_bar(stat = "identity") +
+  labs(x = "Location_HQ", y = "Count") +
+  ggtitle("Most reported layoffs in India by Location HQ /n TOP 3") +
+   scale_fill_manual(values = my_palette_Blue_Yellow) +
+  coord_flip() +
+  custom_theme_white_nolegend()
+```
+
+**Canada:**
+
+```{r, echo = FALSE}
+canada_locations_2023_na <- Tech_layoffs_geo %>%
+  filter(Country == "Canada") %>%
+  count(`Location_HQ`) %>%
+  arrange(desc(n))
+
+# usa_locations_2023
+
+unique_canada_locations_na <- Tech_layoffs_geo %>%
+  filter(Country == "Canada") %>%
+  distinct(`Location_HQ`) %>%
+  summarise(Count = n()) %>%
+  mutate(Message = paste("There are", Count, "unique HQ locations in Canada in the dataset"))
+
+print(unique_canada_locations_na$Message)
+
+cat("\n")
+
+unique_HQ_list_canada_na <- unique(canada_locations_2023_na$`Location_HQ`)
+unique_HQ_list_canada_na <- sort(unique_HQ_list_canada_na)
+
+print(unique_HQ_list_canada_na)
+
+cat("\n")
+
+entries_canada_count_na <- Tech_layoffs_geo %>%
+  filter(Country == "Canada") %>%
+  nrow()
+  
+print(paste("The dataset Canada has", entries_canada_count_na, "entries."))
+
+cat("\n")
+
+unique_canada_companies_na <- Tech_layoffs_geo %>%
+  filter(Country == "Canada") %>%
+  distinct(Company) %>%
+  summarise(Count = n()) %>%
+  mutate(Message = paste("There are", Count, "unique companies in Canada in the dataset"))
+
+print(unique_canada_companies_na$Message)
+
+cat("\n")
+
+Top_5_canada_locations_na <- head(canada_locations_2023_na, 9)
+Top_5_canada_locations_na
+
+```
+
+**Canada Chart:**
+
+```{r, echo = FALSE}
+
+ggplot(Top_5_canada_locations_na, aes(x = reorder(Location_HQ, -n), y = n, fill = Location_HQ)) +
+  geom_bar(stat = "identity") +
+  labs(x = "Location_HQ", y = "Count") +
+  ggtitle("Most reported layoffs in Canada by Location HQ") +
+   scale_fill_manual(values = my_palette_Blue_Yellow) +
+  coord_flip() +
+  custom_theme_white_nolegend()
+```
+
+**United Kingdom**
+
+```{r, echo = FALSE}
+uk_locations_2023_na <- Tech_layoffs_geo %>%
+  filter(Country == "United Kingdom") %>%
+  count(`Location_HQ`) %>%
+  arrange(desc(n))
+
+# usa_locations_2023
+
+unique_uk_locations_na <- Tech_layoffs_geo %>%
+  filter(Country == "United Kingdom") %>%
+  distinct(`Location_HQ`) %>%
+  summarise(Count = n()) %>%
+  mutate(Message = paste("There are", Count, "unique HQ locations for the United Kingdom in the dataset"))
+
+print(unique_uk_locations_na$Message)
+
+cat("\n")
+
+unique_HQ_list_uk_na <- unique(uk_locations_2023_na$`Location_HQ`)
+unique_HQ_list_uk_na <- sort(unique_HQ_list_uk_na)
+
+print(unique_HQ_list_uk_na)
+
+cat("\n")
+
+entries_uk_count_na <- Tech_layoffs_geo %>%
+  filter(Country == "United Kingdom") %>%
+  nrow()
+  
+print(paste("The dataset United Kingdom has", entries_uk_count_na, "entries."))
+
+cat("\n")
+
+unique_uk_companies_na <- Tech_layoffs_geo %>%
+  filter(Country == "United Kingdom") %>%
+  distinct(Company) %>%
+  summarise(Count = n()) %>%
+  mutate(Message = paste("There are", Count, "unique companies in the United Kingdom in the dataset"))
+
+print(unique_uk_companies_na$Message)
+
+cat("\n")
+
+Top_5_UK_locations_na <- head(uk_locations_2023_na, 5)
+Top_5_UK_locations_na
+```
+
+**United Kingdom Chart**
+
+```{r, echo = FALSE}
+
+ggplot(Top_5_UK_locations_na, aes(x = reorder(Location_HQ, -n), y = n, fill = Location_HQ)) +
+  geom_bar(stat = "identity") +
+  labs(x = "Location_HQ", y = "Count") +
+  ggtitle("Most reported layoffs in the United Kingdom /n by Location HQ - TOP 5") +
+   scale_fill_manual(values = my_palette_Blue_Yellow) +
+  coord_flip() +
+  custom_theme_white_nolegend()
+```
+
+**Germany**
+
+```{r, echo = FALSE}
+germany_locations_2023_na <- Tech_layoffs_geo %>%
+  filter(Country == "Germany") %>%
+  count(`Location_HQ`) %>%
+  arrange(desc(n))
+
+# usa_locations_2023
+
+unique_germany_locations_na <- Tech_layoffs_geo %>%
+  filter(Country == "Germany") %>%
+  distinct(`Location_HQ`) %>%
+  summarise(Count = n()) %>%
+  mutate(Message = paste("There are", Count, "unique HQ locations in Germany in the dataset"))
+
+print(unique_germany_locations_na$Message)
+
+cat("\n")
+
+unique_HQ_list_germany_na <- unique(germany_locations_2023_na$`Location_HQ`)
+unique_HQ_list_germany_na <- sort(unique_HQ_list_germany_na)
+
+print(unique_HQ_list_germany_na)
+
+cat("\n")
+
+entries_germany_count_na <- Tech_layoffs_geo %>%
+  filter(Country == "Germany") %>%
+  nrow()
+  
+print(paste("The dataset Germany has", entries_germany_count_na, "entries."))
+
+cat("\n")
+
+unique_germany_companies_na <- Tech_layoffs_geo %>%
+  filter(Country == "Germany") %>%
+  distinct(Company) %>%
+  summarise(Count = n()) %>%
+  mutate(Message = paste("There are", Count, "unique companies in Germany in the dataset"))
+
+print(unique_germany_companies_na$Message)
+
+cat("\n")
+
+Top_5_Germany_locations_na <- head(germany_locations_2023_na, 3)
+Top_5_Germany_locations_na
+
+```
+
+**Germany Chart:**
+
+```{r, echo = FALSE}
+
+ggplot(Top_5_Germany_locations_na, aes(x = reorder(Location_HQ, -n), y = n, fill = Location_HQ)) +
+  geom_bar(stat = "identity") +
+  labs(x = "Location_HQ", y = "Count") +
+  ggtitle("Most reported layoffs in Germany /n by Location HQ - TOP 3") +
+   scale_fill_manual(values = my_palette_Blue_Yellow) +
+  coord_flip() +
+  custom_theme_white_nolegend()
+```
+
+**Timeline of reported Layoffs:**
+
+```{r, echo = FALSE}
+Tech_layoffs_geo$Percentage <- round(Tech_layoffs_geo$Percentage, 1)
+
+# Tech_layoffs_geo
+```
+
+```{r, echo = FALSE}
+library(ggplot2)
+library(dplyr)
+
+Tech_layoffs_geo$Date_layoffs <- as.Date(Tech_layoffs_geo$Date_layoffs)
+
+agg_data <- Tech_layoffs_geo %>%
+  group_by(Date_layoffs) %>%
+  summarise(total_laid_off = sum(Laid_Off))  
+
+ggplot(agg_data, aes(x = Date_layoffs, y = total_laid_off)) +
+  geom_line() +
+  geom_smooth(se = FALSE) +
+  labs(x = "Date of Layoffs", y = "Total Laid Off") +
+  ggtitle("Timeline of Layoffs") +
+  custom_theme_white_nolegend()
+
+```
+
+**Timeline aggregated after month and year**
+
+```{r, echo = FALSE}
+
+library(ggpmisc)
+library(ggplot2)
+library(dplyr)
+library(lubridate)
+
+Tech_layoffs_geo$Date_layoffs <- as.Date(Tech_layoffs_geo$Date_layoffs)
+
+Tech_layoffs_geo$YearMonth <- format(Tech_layoffs_geo$Date_layoffs, "%Y-%m")
+
+agg_data <- Tech_layoffs_geo %>%
+  group_by(YearMonth) %>%
+  summarise(total_laid_off = sum(Laid_Off))  
+
+ggplot(agg_data, aes(x = as.Date(paste0(YearMonth, "-01")), y = total_laid_off)) +
+  geom_line() +
+  geom_point() +
+  geom_smooth(se = FALSE) +
+  scale_x_date(date_breaks = "1 year", date_labels = "%Y") +  
+  labs(x = "Year of Layoffs", y = "Total Laid Off") +
+  ggtitle("Timeline of Layoffs by Year") +
+  custom_theme_white_nolegend() +
+  stat_valleys(geom = "point", span = 11, color = "red", size = 2) +
+  stat_valleys(geom = "label", span = 11, color = "red", angle = 0,
+               hjust = -0.1, x.label.fmt = "%Y-%m-%d") +
+  stat_valleys(geom = "rug", span = 11, color = "red", sides = "b") +
+  stat_peaks(geom = "point", span = 15, color = "steelblue3", size = 2) +
+  stat_peaks(geom = "label", span = 15, color = "steelblue3", angle = 0,
+             hjust = -0.1, x.label.fmt = "%Y-%m-%d") +
+  stat_peaks(geom = "rug", span = 15, color = "blue", sides = "b") 
+
+
+```
+
+```{r, echo = FALSE}
+Tech_layoffs_geo$Year <- format(Tech_layoffs_geo$Date_layoffs, "%Y")
+
+agg_data_year <- Tech_layoffs_geo %>%
+  group_by(Year) %>%
+  summarise(total_laid_off = sum(Laid_Off)) 
+agg_data_year$Year <- as.Date(as.character(agg_data_year$Year), format = "%Y")
+
+ggplot(agg_data_year, aes(x = Year, y = total_laid_off)) +
+  geom_line() +
+  geom_point() +
+  scale_x_date(date_breaks = "1 year", date_labels = "%Y") +  
+  labs(x = "Year of Layoffs", y = "Total Laid Off") +
+  ggtitle("Timeline of Layoffs by Year") +
+  custom_theme_white_nolegend()
+
+```
+
+```{r, echo = FALSE}
+
+Tech_layoffs_geo$Year <- format(Tech_layoffs_geo$Date_layoffs, "%Y")
+
+Tech_layoffs_geo$Year <- factor(Tech_layoffs_geo$Year, ordered = TRUE)
+
+Tech_layoffs_geo <- Tech_layoffs_geo %>%
+  arrange(Year)
+
+ggplot(Tech_layoffs_geo, aes(x = Year, y = ..count.., fill = Year)) +
+  geom_bar() +
+  labs(x = "Year", y = "Count") +
+  ggtitle("Reported layoffs by year") +
+  scale_fill_manual(values = my_palette_Blue_Yellow) +
+  custom_theme_white_nolegend()
+
+```
+
+**Month with highest reported layoffs per year**
+
+```{r, echo = FALSE}
+library(dplyr)
+library(tidyr)
+
+agg_data$Date <- as.Date(paste0(agg_data$YearMonth, "-01"))
+
+agg_data <- agg_data %>%
+  mutate(Year = lubridate::year(Date), Month = lubridate::month(Date, label = TRUE, abbr = TRUE))
+
+monthly_summary <- agg_data %>%
+  group_by(Year, Month) %>%
+  summarise(total_laid_off = sum(total_laid_off)) %>%
+  arrange(desc(total_laid_off))  
+
+top_month_year <- monthly_summary %>% slice(1)
+
+top_month_year
+```
+
+**Month with the highest reported layoffs**
+
+```{r, echo = FALSE}
+
+overall_monthly_summary <- monthly_summary %>%
+  group_by(Year, Month) %>%
+  summarise(total_laid_off = sum(total_laid_off)) %>%
+  ungroup()  
+
+top_5_overall <- overall_monthly_summary %>%
+  arrange(desc(total_laid_off)) %>% 
+  slice(1:5)  
+
+top_5_overall
+```
+
+**Companies with the highest layoffs in the TOP 5 monthly layoffs**
+
+```{r, echo = FALSE}
+library(dplyr)
+
+companies_with_laid_off_count <- Tech_layoffs_geo %>%
+  group_by(Company) %>%
+  summarise(total_laid_off = sum(Laid_Off)) %>%
+  arrange(desc(total_laid_off))  
+
+top_10_companies <- companies_with_laid_off_count %>%
+  top_n(10, wt = total_laid_off)
+
+# print(companies_with_laid_off_count)
+print(top_10_companies)
+
+
+```
+
+**Bar chart of 10 TOP Companies with layoffs**
+
+```{r, echo = FALSE}
+
+ggplot(top_10_companies, aes(x = Company, y = total_laid_off, fill = Company)) +
+  geom_bar(stat = "identity") +
+  labs(x = "Companies", y = "Sum layoffs") +
+  ggtitle("Most reported layoffs by Companies - TOP 10") +
+   scale_fill_manual(values = my_palette_Blue_Yellow) +
+  coord_flip() +
+  custom_theme_white_nolegend()
+
+```
+
+**Companies with 100 % Layoffs**
+
+```{r, echo = FALSE}
+companies_percentage_100 <- Tech_layoffs_geo %>%
+  filter(Percentage == 100.0) %>%
+  select(Company, Country, Continent) %>%
+  arrange(Company) %>%
+  distinct()
+
+
+unique_companies_100_percentage <- unique(companies_percentage_100)
+
+total_companies_100_percentage <- companies_percentage_100 %>%
+  summarise(Count = n_distinct(Company))
+
+print(paste("The dataset are", total_companies_100_percentage, "entries with 100% layoffs reported."))
+
+cat("\n")
+
+# companies_only <- unique_companies_100_percentage$Company
+
+# print(paste("The companies are:", paste(companies_only, collapse = ", ")))
+
+print(paste("The companies are"))
+
+unique_companies_100_percentage
+
+```
+
+```{r, echo = FALSE}
+
+if (!require(leaflet)) {
+  install.packages("leaflet")
+}
+library(leaflet)
+
+myMap <- leaflet() %>%
+  addTiles()
+
+for (i in seq_len(nrow(Tech_layoffs_geo))) {
+  lat <- Tech_layoffs_geo$lat[i]
+  lng <- Tech_layoffs_geo$lng[i]
+
+  custom_icon_path <- "/Users/ulrike_imac_air/projects/Arbeit_analysis/redsmallpin.png"
+
+custom_icon <- makeIcon(
+  iconUrl = custom_icon_path,
+  iconWidth = 30,
+  iconHeight = 40,
+  iconAnchorX = 15,
+  iconAnchorY = 40
+)
+
+  myMap <- myMap %>%
+    addMarkers(lat = lat, lng = lng, group = paste("group", i), icon = custom_icon, clusterOptions = markerClusterOptions())
+}
+
+myMap
+```
+
+```{r, echo = FALSE}
+SF_Locations <- Tech_layoffs_geo %>%
+  filter(Location_HQ == "San Francisco Bay Area")
+
+# SF_Locations
+```
+
+**Map of San Francisco Locations**
+
+```{r, echo = FALSE}
+
+if (!require(leaflet)) {
+  install.packages("leaflet")
+}
+library(leaflet)
+
+filtered_data_SF <- Tech_layoffs_geo[Tech_layoffs_geo$Location_HQ == "San Francisco Bay Area", ]
+
+myMap <- leaflet() %>%
+  addTiles()
+
+for (i in seq_len(nrow(filtered_data_SF))) {
+  lat <- filtered_data_SF$lat[i]
+  lng <- filtered_data_SF$lng[i]
+
+  myMap <- myMap %>%
+    addMarkers(lat = lat, lng = lng, group = paste("group", i), icon = custom_icon, clusterOptions = markerClusterOptions())
+}
+
+myMap
+
+```
+
+**Map of European Locations**
+
+```{r, echo = FALSE}
+
+if (!require(leaflet)) {
+  install.packages("leaflet")
+}
+library(leaflet)
+
+filtered_data_SF <- Tech_layoffs_geo[Tech_layoffs_geo$Continent == "Europe", ]
+
+myMap <- leaflet() %>%
+  addTiles()
+
+for (i in seq_len(nrow(filtered_data_SF))) {
+  lat <- filtered_data_SF$lat[i]
+  lng <- filtered_data_SF$lng[i]
+
+  myMap <- myMap %>%
+    addMarkers(lat = lat, lng = lng, group = paste("group", i), icon = custom_icon, clusterOptions = markerClusterOptions())
+}
+
+myMap
+```
+
+**Map of Asia**
+
+```{r, echo = FALSE}
+
+if (!require(leaflet)) {
+  install.packages("leaflet")
+}
+library(leaflet)
+
+filtered_data_SF <- Tech_layoffs_geo[Tech_layoffs_geo$Continent == "Asia", ]
+
+myMap <- leaflet() %>%
+  addTiles()
+
+for (i in seq_len(nrow(filtered_data_SF))) {
+  lat <- filtered_data_SF$lat[i]
+  lng <- filtered_data_SF$lng[i]
+
+  myMap <- myMap %>%
+    addMarkers(lat = lat, lng = lng, group = paste("group", i), icon = custom_icon, clusterOptions = markerClusterOptions())
+}
+
+myMap
+```
+
+**Map of North America**
+
+```{r, echo = FALSE}
+
+if (!require(leaflet)) {
+  install.packages("leaflet")
+}
+library(leaflet)
+
+filtered_data_SF <- Tech_layoffs_geo[Tech_layoffs_geo$Continent == "North America", ]
+
+myMap <- leaflet() %>%
+  addTiles()
+
+for (i in seq_len(nrow(filtered_data_SF))) {
+  lat <- filtered_data_SF$lat[i]
+  lng <- filtered_data_SF$lng[i]
+
+  myMap <- myMap %>%
+    addMarkers(lat = lat, lng = lng, group = paste("group", i), icon = custom_icon, clusterOptions = markerClusterOptions())
+}
+
+myMap
+```
+
+**Map of South America**
+
+```{r, echo = FALSE}
+
+if (!require(leaflet)) {
+  install.packages("leaflet")
+}
+library(leaflet)
+
+filtered_data_SF <- Tech_layoffs_geo[Tech_layoffs_geo$Continent == "South America", ]
+
+myMap <- leaflet() %>%
+  addTiles()
+
+for (i in seq_len(nrow(filtered_data_SF))) {
+  lat <- filtered_data_SF$lat[i]
+  lng <- filtered_data_SF$lng[i]
+
+  myMap <- myMap %>%
+    addMarkers(lat = lat, lng = lng, group = paste("group", i), icon = custom_icon, clusterOptions = markerClusterOptions())
+}
+
+myMap
+
+```
+
+**Map of Africa**
+
+```{r, echo = FALSE}
+
+if (!require(leaflet)) {
+  install.packages("leaflet")
+}
+library(leaflet)
+
+filtered_data_SF <- Tech_layoffs_geo[Tech_layoffs_geo$Continent == "Africa", ]
+
+myMap <- leaflet() %>%
+  addTiles()
+
+for (i in seq_len(nrow(filtered_data_SF))) {
+  lat <- filtered_data_SF$lat[i]
+  lng <- filtered_data_SF$lng[i]
+
+  myMap <- myMap %>%
+    addMarkers(lat = lat, lng = lng, group = paste("group", i), icon = custom_icon, clusterOptions = markerClusterOptions())
+}
+
+myMap
+```
+
+**Map of Australia**
+
+```{r, echo = FALSE}
+
+if (!require(leaflet)) {
+  install.packages("leaflet")
+}
+library(leaflet)
+
+filtered_data_SF <- Tech_layoffs_geo[Tech_layoffs_geo$Continent == "Australia", ]
+
+myMap <- leaflet() %>%
+  addTiles()
+
+for (i in seq_len(nrow(filtered_data_SF))) {
+  lat <- filtered_data_SF$lat[i]
+  lng <- filtered_data_SF$lng[i]
+
+  myMap <- myMap %>%
+    addMarkers(lat = lat, lng = lng, group = paste("group", i), icon = custom_icon, clusterOptions = markerClusterOptions())
+}
+
+myMap
+```
