@@ -41,6 +41,30 @@ library(patchwork)
 Tech_layoffs_geo <- read_excel(".../tech_layoffs.xlsx")
 ```
 
+**Loading the dataset and getting a first look of the data.**
+
+Tech_layoffs <- read_excel("/kaggle/input/tech-layoffs-2020-2024/tech_layoffs.xlsx")
+
+head(Tech_layoffs)
+colnames(Tech_layoffs)
+
+**Ploting layoffs per year**
+
+library(ggplot2)
+
+# Calculate number of companies per year
+Tech_layoffs_peryear <- Tech_layoffs %>%
+  group_by(Year) %>%
+  summarise(Company = n_distinct(Company))
+head(Tech_layoffs_peryear, 10)
+
+# Plotting
+ggplot(Tech_layoffs_peryear, aes(x = Year, y = Company, fill = Company)) +
+  geom_bar(stat = "identity") +
+  labs(x = "Year", y = "Number of Companies")
+  ggtitle("Reported layoffs per year") +
+  custom_theme_white_nolegend()
+
 **Removing rows with missing values from Dataset:**
 
 ```{r, echo = FALSE}
