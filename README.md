@@ -2,6 +2,9 @@
 
 ## Finding Trends and Patterns
 
+![head_picture]([path/to/image.jpg](https://github.com/UlrikeDetective/tech_layoffs/blob/main/tech_layoffs_pictures/tech_layoffs.png))
+
+
 ### Table of Contents
 - [Tech Layoffs Analysis](https://github.com/UlrikeDetective/tech_layoffs/tree/main/tech_layoffs_analysis)
 - [Tech Layoffs CSV](https://github.com/UlrikeDetective/tech_layoffs/tree/main/tech_layoffs_csv)
