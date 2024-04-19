@@ -5,10 +5,8 @@
 
 ## Table of Contents
 - [[tech_layoffs_analysis]](https://github.com/UlrikeDetective/tech_layoffs/tree/main/tech_layoffs_analysis)
-- [[tech_layoffs_csv]] (https://github.com/UlrikeDetective/tech_layoffs/tree/main/tech_layoffs_csv)
-- [tech_layoffs_txt]((https://github.com/UlrikeDetective/tech_layoffs/tree/main/tech_layoffs_txt)
-- tech_layoffs_txt ((https://github.com/UlrikeDetective/tech_layoffs/tree/main/tech_layoffs_txt)
-- ((https://github.com/UlrikeDetective/tech_layoffs/tree/main/tech_layoffs_txt) (text)
+- [[tech_layoffs_csv]](https://github.com/UlrikeDetective/tech_layoffs/tree/main/tech_layoffs_csv)
+- [[tech_layoffs_txt]]((https://github.com/UlrikeDetective/tech_layoffs/tree/main/tech_layoffs_txt)
 
 
 
