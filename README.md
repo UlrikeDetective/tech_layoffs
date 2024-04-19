@@ -2,7 +2,7 @@
 
 ## Finding Trends and Patterns
 
-![head_picture]([path/to/image.jpg](https://github.com/UlrikeDetective/tech_layoffs/blob/main/tech_layoffs_pictures/tech_layoffs.png))
+![head_picture](https://github.com/UlrikeDetective/tech_layoffs/blob/main/tech_layoffs_pictures/tech_layoffs.png))
 
 
 ### Table of Contents
