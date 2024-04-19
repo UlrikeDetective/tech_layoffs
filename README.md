@@ -4,8 +4,8 @@
 
 
 ## Table of Contents
-- [[tech_layoffs_analysis]](https://github.com/UlrikeDetective/tech_layoffs/tree/main/tech_layoffs_analysis)(#Tech_layoffs_analysis)
-- [youtube_csv](#csv_files)
+- [[tech_layoffs_analysis]](https://github.com/UlrikeDetective/tech_layoffs/tree/main/tech_layoffs_analysis)
+- [tech_layoffs_csv]https://github.com/UlrikeDetective/tech_layoffs/tree/main/tech_layoffs_csv
 - [youtube_icons](#Icons)
 - [youtube_txt](#Text_files)
 
