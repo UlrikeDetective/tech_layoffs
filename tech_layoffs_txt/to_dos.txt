@@ -2,3 +2,5 @@
 - update data every three month
 - read instructions
 - data cleaning of new data
+
+- new Kaggle dataset with 2024 data
