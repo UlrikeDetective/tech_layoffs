@@ -3,4 +3,6 @@
 - read instructions
 - data cleaning of new data
 
+- getting GPS from location (city + country + us_state?)
+
 - new Kaggle dataset with 2024 data
