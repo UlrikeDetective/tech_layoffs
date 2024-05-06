@@ -3,6 +3,8 @@
 - read instructions
 - data cleaning of new data
 
+- better way of web scraping?
+
 - getting GPS from location (city + country + us_state?)
 
 - new Kaggle dataset with 2024 data
