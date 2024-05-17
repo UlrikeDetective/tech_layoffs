@@ -13,13 +13,13 @@
 
 ## Installation
 
-```
+
 mostly R
-```
+
 ## Usage
-```
+
 learning R and doing experiements with data analytics
-```
+
 ## Contributors
 
 
