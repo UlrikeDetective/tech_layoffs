@@ -27,7 +27,7 @@ learning R and doing experiements with data analytics
 This project is licensed under the GNU General Public License v3.0 License - see the [LICENSE](LICENSE) file for details.
 
 ## Badges
-[![GitHub stars](https://img.shields.io/github/stars/UlrikeDetective/tech_layoffs)](https://github.com/UlrikeDetective/tech_layoffs/stargazers) [![GitHub forks](https://img.shields.io/github/forks/UlrikeDetective/tech_layoffs)](https://github.com/UlrikeDetective/tech_layoffs/network/members) [![GitHub issues](https://img.shields.io/github/issues/UlrikeDetective/tech_layoffs)](https://github.com/UlrikeDetective/tech_layoffs/issues) [![GitHub license](https://img.shields.io/github/license/UlrikeDetective/tech_layoffs)](https://github.com/UlrikeDetective/tech_layoffs/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/UlrikeDetective/tech_layoffs)](https://github.com/UlrikeDetective/tech_layoffs/stargazers) [![GitHub forks](https://img.shields.io/github/forks/UlrikeDetective/tech_layoffs)](https://github.com/UlrikeDetective/tech_layoffs/network/members) 
 
 ## GitHub Repository
 [Link to GitHub repository](https://github.com/UlrikeDetective/tech_layoffs)
