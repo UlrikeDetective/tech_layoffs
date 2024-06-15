@@ -1,5 +1,8 @@
 # Tech Layoffs Data Analysis 2020 - 2024
 
+Dataset and data analytics of layoffs in the tech sector between 2020 - 2024. Source for the data is from layoffs.fyi.
+Next data scraping and update end of June 2024.
+
 ## Finding Trends and Patterns
 
 ![head_picture](https://github.com/UlrikeDetective/tech_layoffs/blob/main/tech_layoffs_pictures/tech_layoffs.png)
