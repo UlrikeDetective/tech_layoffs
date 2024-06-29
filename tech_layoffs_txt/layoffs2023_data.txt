@@ -1,10 +1,12 @@
-Data is from https://layoffs.fyi/
+Data is from https://layoffs.fyi/ and https://peerlist.io/layoffs-tracker
 
 Data is on two xlsx files layoffs2023_data and biggest_layoffs
 
 Web scraping on Dec. 25th 2023
 
 Web scraping on march 30th 2024 for I. Q 2024
+
+Web scraping on June 29th 2024 for II.Q 2024 from https://peerlist.io/layoffs-tracker
 
 Printed table to a pdf file than created with Adobe Acrobat Reader a xlsx file.
 
