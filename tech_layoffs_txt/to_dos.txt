@@ -1,5 +1,5 @@
 ** To dos **
-- update data every three month
+- update data every three month - so far April 2024, June 2024
 - read instructions
 - data cleaning of new data
 
