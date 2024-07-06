@@ -8,6 +8,10 @@ Web scraping on march 30th 2024 for I. Q 2024
 
 Web scraping on June 29th 2024 for II.Q 2024 from https://peerlist.io/layoffs-tracker
 
+Web scraping on July 6th 2024 for II. Q 2024 from https://layoffs.fyi/
+
+Cleaning II.Q 2024
+
 Printed table to a pdf file than created with Adobe Acrobat Reader a xlsx file.
 
 Data cleaning - removed from location column non-USA. 
