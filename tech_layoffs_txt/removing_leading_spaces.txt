@@ -1,0 +1,28 @@
+VBA Solution for Removing Leading Spaces
+For a more automated approach, you can use a VBA macro:
+
+Press Alt + F11 to open the VBA editor.
+
+Insert a new module by selecting Insert > Module.
+
+Paste the following code:
+
+vba
+Copy code
+Sub RemoveLeadingSpaces()
+    Dim cell As Range
+    For Each cell In Selection
+        If Not IsEmpty(cell) Then
+            cell.Value = LTrim(cell.Value)
+        End If
+    Next cell
+End Sub
+Close the VBA editor.
+
+Select the range of cells you want to clean.
+
+Press Alt + F8, select RemoveLeadingSpaces, and click Run.
+
+This macro will remove only the leading spaces from all the selected cells.
+
+By using either of these methods, you can efficiently remove leading spaces from many entries in Excel.
