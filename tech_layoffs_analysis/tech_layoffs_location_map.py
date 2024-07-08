@@ -64,3 +64,20 @@ fig = px.treemap(usa_df, width=1280, height=800,
                  color='Location_HQ')
 fig.update_traces(textinfo="label+percent parent")
 fig.show()
+
+st_cat = df[["Region",
+             "Location_HQ"]].groupby(["Region",
+                                       "Location_HQ"], as_index=False).size()
+
+import pandas as pd
+import plotly.express as px
+
+
+Ca_df = st_cat[st_cat['Region'] == 'San Francisco Bay Area']
+
+# Create the treemap using the filtered DataFrame
+fig = px.treemap(Ca_df, width=1280, height=800,
+                 path=["Region", "Location_HQ"], values='size',
+                 color='Location_HQ')
+fig.update_traces(textinfo="label+percent parent")
+fig.show()
