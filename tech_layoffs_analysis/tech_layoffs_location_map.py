@@ -52,3 +52,15 @@ fig.add_child(fmap)
 # Display the Figure
 display(fig)
 
+import pandas as pd
+import plotly.express as px
+
+# Filter the DataFrame for rows where Country is USA
+usa_df = gr_cat[gr_cat['Country'] == 'USA']
+
+# Create the treemap using the filtered DataFrame
+fig = px.treemap(usa_df, width=1280, height=800,
+                 path=["Country", "Location_HQ"], values='size',
+                 color='Location_HQ')
+fig.update_traces(textinfo="label+percent parent")
+fig.show()
