@@ -3,6 +3,10 @@ df.to_csv('/layoffs_location_with_coordinates.csv', index=False)
 display(df.head())
 display(df.info(verbose=True))
 
+# Convert latitude and longitude to the correct format
+df['latitude'] = df['latitude'].str.replace(',', '.').astype(float)
+df['longitude'] = df['longitude'].str.replace(',', '.').astype(float)
+
 import folium
 from branca.element import Figure
 
