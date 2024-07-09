@@ -44,3 +44,17 @@ df_Cou_Y_final = df_Cou_Y_pivot[columns_order].reset_index()
 
 print(df_Cou_Y_final)
 df_Cou_Y_final.to_csv('layoffs_Country_sum_year.csv', index=False)
+
+# do the same with Continent
+df_Co_Y = df.groupby(['Continent', 'Year'])['Laid_Off'].sum().reset_index()
+df_Co_Y_pivot = df_Co_Y.pivot(index='Continent', columns='Year', values='Laid_Off').fillna(0)
+df_Co_Y_pivot['Total_Laid_off'] = df_Co_Y_pivot.sum(axis=1)
+for year in range(2020, 2025):
+    if year not in df_Co_Y_pivot.columns:
+        df_Co_Y_pivot[year] = 0
+
+columns_order = list(range(2020, 2025)) + ['Total_Laid_off']
+df_Co_Y_final = df_Co_Y_pivot[columns_order].reset_index()
+
+print(df_Co_Y_final)
+df_Co_Y_final.to_csv('layoffs_Continent_sum_year.csv', index=False)
