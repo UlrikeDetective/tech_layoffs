@@ -18,3 +18,9 @@ print(df_grouped)
 
 # save as csv
 df_grouped.to_csv('layoffs_HQ_sum.csv', index=False)
+
+# dataframe Country and Laid_off
+df_country = df.groupby('Country')['Laid_Off'].sum().reset_index()
+df_country.columns = ['Country', 'Total_Laid_off']
+print(df_country)
+df_country.to_csv('layoffs_country_sum.csv', index=False)
