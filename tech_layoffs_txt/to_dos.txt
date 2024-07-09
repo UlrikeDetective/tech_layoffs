@@ -5,6 +5,13 @@
 
 - better way of web scraping?
 
+- map of layoffs numbers after location and country
+  - filter and sum of layoffs after location and country
+- interactive charts
+  - layoff changes per year using highcharts?
+
+Done
+
 - getting GPS from location (city + country + us_state?)
 
 - new Kaggle dataset with 2024 data
