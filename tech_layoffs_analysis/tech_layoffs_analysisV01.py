@@ -15,3 +15,6 @@ df_grouped = df.groupby('Location_HQ')['Laid_Off'].sum().reset_index()
 df_grouped.columns = ['Location_HQ', 'Total_Laid_off']
 
 print(df_grouped)
+
+# save as csv
+df_grouped.to_csv('layoffs_HQ_sum.csv', index=False)
