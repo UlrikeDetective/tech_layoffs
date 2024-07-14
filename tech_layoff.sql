@@ -29,3 +29,12 @@ CREATE TABLE Q2_2024 (
     longitude FLOAT,
     PRIMARY KEY (#),
 );
+
+Show columns from Q2_2024;
+
+LOAD DATA Local INFILE '/tech_layoffs_Q2_2024.csv'
+INTO TABLE Q2_2024
+FIELDS TERMINATED BY ';' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;  -- This skips the header row if it's present in the CSV
