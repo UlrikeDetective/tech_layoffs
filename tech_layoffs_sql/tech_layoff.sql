@@ -6,10 +6,9 @@ SET GLOBAL local_infile = 'ON';
 SHOW VARIABLES LIKE 'local_infile';
 SHOW VARIABLES LIKE "secure_file_priv";
 
--- drop table forbes_names; 
 
 CREATE TABLE Q2_2024 (
-    # INT UNIQUE,
+    ID INT UNIQUE,
     Company VARCHAR(100),
     Location_HQ VARCHAR(100),
     Region VARCHAR(50),
@@ -27,14 +26,18 @@ CREATE TABLE Q2_2024 (
     Year INT,
     latitude FLOAT,
     longitude FLOAT,
-    PRIMARY KEY (#),
+    PRIMARY KEY (ID)
 );
+
+drop table Q2_2024;
 
 Show columns from Q2_2024;
 
-LOAD DATA Local INFILE '/tech_layoffs_Q2_2024.csv'
+LOAD DATA Local INFILE '/Users/ulrike_imac_air/projects/DataScienceProjects/tech_layoffs_project/tech_layoffs_csv/tech_layoffs_Q2_2024.csv'
 INTO TABLE Q2_2024
-FIELDS TERMINATED BY ';' 
+FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;  -- This skips the header row if it's present in the CSV
+
+Select * From Q2_2024 Limit 10;
