@@ -1,2 +1,26 @@
-USE Tech_layoff;
+USE Tech_layoffs;
 
+# Identify Spelling Errors
+SELECT DISTINCT Industry
+FROM tech_layoffs;
+
+# Duplicate Rows
+SELECT *
+FROM (
+  SELECT Company, Location_HQ, Country, Laid_Off, Date_layoffs, Industry,
+         ROW_NUMBER() OVER (PARTITION BY Company, Location_HQ, Country, Laid_Off, Date_layoffs, Industry) AS row_num
+  FROM tech_layoffs
+) AS duplicates  
+WHERE row_num > 1;
+
+SELECT Company, Location_HQ, Country, Laid_Off,Date_layoffs, Industry
+FROM tech_layoffs
+WHERE Company LIKE 'Criteo';
+
+SELECT Company, Location_HQ, Country, Laid_Off,Date_layoffs, Industry
+FROM tech_layoffs
+WHERE Company LIKE 'Etsy';
+
+SELECT Company, Location_HQ, Country, Laid_Off,Date_layoffs, Industry
+FROM tech_layoffs
+WHERE Company LIKE 'Tome';
