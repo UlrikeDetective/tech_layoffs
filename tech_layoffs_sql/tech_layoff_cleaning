@@ -24,3 +24,22 @@ WHERE Company LIKE 'Etsy';
 SELECT Company, Location_HQ, Country, Laid_Off,Date_layoffs, Industry
 FROM tech_layoffs
 WHERE Company LIKE 'Tome';
+
+# Missing values
+SELECT Laid_Off, Percentage, Company_Size_before_Layoffs, Company_Size_after_layoffs
+FROM tech_layoffs
+WHERE Laid_Off IS NULL
+OR Percentage IS NULL 
+OR Company_Size_before_Layoffs IS NULL 
+OR Company_Size_after_layoffs IS NULL;
+
+# Clean Dataset from missing values
+SELECT *
+FROM tech_layoffs
+WHERE Laid_Off IS NOT NULL
+AND Percentage IS NOT NULL 
+AND Company_Size_before_Layoffs IS NOT NULL 
+AND Company_Size_after_layoffs IS NOT NULL;
+# after save new dataset
+
+
