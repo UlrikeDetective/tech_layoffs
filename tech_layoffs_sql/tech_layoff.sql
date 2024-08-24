@@ -7,7 +7,7 @@ SHOW VARIABLES LIKE 'local_infile';
 SHOW VARIABLES LIKE "secure_file_priv";
 
 
-CREATE TABLE Q2_2024 (
+CREATE OR REPLACE TABLE Q2_2024 (
     ID INT UNIQUE,
     Company VARCHAR(100),
     Location_HQ VARCHAR(100),
@@ -33,7 +33,7 @@ drop table Q2_2024;
 
 Show columns from Q2_2024;
 
-LOAD DATA Local INFILE '/Users/ulrike_imac_air/projects/DataScienceProjects/tech_layoffs_project/tech_layoffs_csv/tech_layoffs_Q2_2024.csv'
+LOAD DATA Local INFILE '/path_to_file/tech_layoffs_Q2_2024.csv'
 INTO TABLE Q2_2024
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
