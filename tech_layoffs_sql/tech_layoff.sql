@@ -7,7 +7,7 @@ SHOW VARIABLES LIKE 'local_infile';
 SHOW VARIABLES LIKE "secure_file_priv";
 
 
-CREATE OR REPLACE TABLE Q2_2024 (
+CREATE Table Q2_2024 (
     ID INT UNIQUE,
     Company VARCHAR(100),
     Location_HQ VARCHAR(100),
