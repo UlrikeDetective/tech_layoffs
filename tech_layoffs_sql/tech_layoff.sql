@@ -41,6 +41,39 @@ CREATE TABLE employees (
     employees int
 );
 
+CREATE TABLE companies (
+	rang int Primary Key,
+    organizationName VARCHAR(200),
+    country varchar(100),
+    revenue_USD_in_mio float,
+    profits_USD_in_mio float,
+    assets_USD_in_mio float,
+    marketValue_USD_in_mio float
+);
+
+CREATE TABLE companies (
+	rang int Primary Key,
+    organizationName VARCHAR(200),
+    country varchar(100),
+    revenue_USD_in_mio real,
+    profits_USD_in_mio real,
+    assets_USD_in_mio real,
+    marketValue_USD_in_mio real
+);
+
+drop table companies;
+
+LOAD DATA LOCAL INFILE '/Forbes_companies_mio_2024.csv'
+INTO TABLE companies
+FIELDS TERMINATED BY ';'  -- Use comma as the delimiter
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;  -- This skips the header row if it's present in the CSV
+-- (rang, organizationName, country, revenue_USD_in_mio, profits_USD_in_mio, assets_USD_in_mio, marketValue_USD_in_mio);
+
+Select * from companies Limit 15;
+
+
 LOAD DATA Local INFILE '/path_to_file/tech_layoffs_Q2_2024.csv'
 INTO TABLE Q2_2024
 FIELDS TERMINATED BY ',' 
@@ -50,7 +83,7 @@ IGNORE 1 ROWS;  -- This skips the header row if it's present in the CSV
 
 Select * From Q2_2024 Limit 10;
 
-LOAD DATA Local INFILE '/Users/ulrike_imac_air/projects/DataScienceProjects/Forbes/Companies/companies_raw/forbes_employees_2024.csv'
+LOAD DATA Local INFILE '/forbes_employees_2024.csv'
 INTO TABLE employees
 FIELDS TERMINATED BY ';' 
 ENCLOSED BY '"'
