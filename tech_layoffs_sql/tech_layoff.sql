@@ -33,6 +33,14 @@ drop table Q2_2024;
 
 Show columns from Q2_2024;
 
+CREATE TABLE employees (
+	rang int Primary Key,
+    organizationName VARCHAR(100),
+    industry VARCHAR(255),
+    country varchar(100),
+    employees int
+);
+
 LOAD DATA Local INFILE '/path_to_file/tech_layoffs_Q2_2024.csv'
 INTO TABLE Q2_2024
 FIELDS TERMINATED BY ',' 
@@ -41,3 +49,18 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;  -- This skips the header row if it's present in the CSV
 
 Select * From Q2_2024 Limit 10;
+
+LOAD DATA Local INFILE '/Users/ulrike_imac_air/projects/DataScienceProjects/Forbes/Companies/companies_raw/forbes_employees_2024.csv'
+INTO TABLE employees
+FIELDS TERMINATED BY ';' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+(rang, organizationName, industry, country, employees)
+;
+Select * from employees Limit 15;
+
+DELETE FROM employees
+ORDER BY rang ASC
+LIMIT 1;
+
+Select * from employees Limit 15;
