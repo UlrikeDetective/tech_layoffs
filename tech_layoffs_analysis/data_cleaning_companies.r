@@ -35,11 +35,11 @@ print(F01)
 # Delete the columns revenue, profits, assets, and marketValue
 F01 <- subset(F01, select = -c(revenue, profits, assets, marketValue))
 
-# Alternatively, you can use NULL to remove the columns
-# F01$revenue <- NULL
-# F01$profits <- NULL
-# F01$assets <- NULL
-# F01$marketValue <- NULL
+Alternatively, you can use NULL to remove the columns
+F01$revenue <- NULL
+F01$profits <- NULL
+F01$assets <- NULL
+F01$marketValue <- NULL
 
 # View the updated dataframe
 
