@@ -35,6 +35,13 @@ Click on the "Special" button in the "Go To" dialog box.
 In the "Go To Special" dialog box, select the "Objects" option and click "OK". This will select all objects in the worksheet, including pictures.
 Press the "Delete" key on your keyboard to delete all selected objects, including pictures.
 
+Alternative Method: Use the Selection Pane
+Open the Selection Pane:
+
+Go to the Home tab.
+Click on Find & Select (usually located on the far-right side).
+Choose Selection Pane from the dropdown. This will open a pane on the right side of your screen showing all objects in the current worksheet.
+
 Technical Questions:
 
 How can I create maps of the locations of the headquarters?
