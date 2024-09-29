@@ -10,6 +10,8 @@ Web scraping on June 29th 2024 for II.Q 2024 from https://peerlist.io/layoffs-tr
 
 Web scraping on July 6th 2024 for II. Q 2024 from https://layoffs.fyi/
 
+Web scraping on September 28th 2024 for III. Q 2024 from https://layoffs.fyi/
+
 Cleaning II.Q 2024
 
 Printed table to a pdf file than created with Adobe Acrobat Reader a xlsx file.
