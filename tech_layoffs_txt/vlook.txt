@@ -1,0 +1,12 @@
+
+Country
+=VLOOKUP([@[Location_HQ]];tech_layoffs_location!A:D;4;FALSE)
+
+Continent
+=VLOOKUP([@[Location_HQ]];tech_layoffs_location!A:E;5;FALSE)
+
+Laditude
+=VLOOKUP([@[Location_HQ]];tech_layoffs_location!A:F;6;FALSE)
+
+Longitude
+=VLOOKUP([@[Location_HQ]];tech_layoffs_location!A:G;7;FALSE)
