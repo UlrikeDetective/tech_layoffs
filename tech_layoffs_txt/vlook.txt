@@ -1,3 +1,8 @@
+Region
+=VLOOKUP([@[Location_HQ]];tech_layoffs_location!A:B;2;FALSE)
+
+State
+=VLOOKUP([@[Location_HQ]];tech_layoffs_location!A:C;3;FALSE)
 
 Country
 =VLOOKUP([@[Location_HQ]];tech_layoffs_location!A:D;4;FALSE)
