@@ -1646,7 +1646,7 @@
 1645;Flock Freight;San Diego;;California;USA;North America;54;2024-03-16;;;;Logistics;Series D;399;2024;32,7174202;-117,162772
 1646;Longi;Xi'an;;0;China;Asia;;2024-03-18;5,0;;;Energy;Unknown;;2024;34,261004;108,9423363
 1647;Airmeet;Bengaluru;;0;India;Asia;;2024-03-19;20,0;;;Marketing;Series B;50;2024;12,98815675;77,62260004
-1648;Orbotech;Yavne;;0;Israel;Asia;100;2024-03-19;;;0 ;Manufacturing;Acquired;;2024;31,8768863;34,7382974
+1648;Orbotech;Yavne;;0;Israel;Asia;100;2024-03-19;;;;Manufacturing;Acquired;;2024;31,8768863;34,7382974
 1649;ShopBack;Singapore;;0;Singapore;Asia;195;2024-03-19;24,0;813 ;618 ;Retail;Series F;355;2024;1,2899175;103,8519072
 1650;Cybereason;Boston;;Massachusetts;USA;North America;;2024-03-20;;;;Security;Series F;750;2024;42,3554334;-71,060511
 1651;Verily;San Francisco;San Francisco Bay Area;California;USA;North America;;2024-03-22;;;;Healthcare;Subsidiary;4;2024;37,7792588;-122,4193286
@@ -1681,7 +1681,7 @@
 1680;Cornershop;Santiago;;0;Chile;South America;200;2024-04-10;;;;Food;Acquired;32;2024;-33,4377756;-70,6504502
 1681;Scaler;Bengaluru;;0;India;Asia;150;2024-04-10;;;;Education;Series B;55;2024;12,98815675;77,62260004
 1682;Fabric;New York City;;New York;USA;North America;30;2024-04-11;15,0;200 ;170 ;Logistics;Series C;336;2024;40,7127281;-74,0060152
-1683;Hinge Health;San Francisco;San Francisco Bay Area;California;USA;North America;;2024-04-11;10,0;0 ;0 ;Healthcare;Series E;826;2024;37,7792588;-122,4193286
+1683;Hinge Health;San Francisco;San Francisco Bay Area;California;USA;North America;;2024-04-11;10,0;;;Healthcare;Series E;826;2024;37,7792588;-122,4193286
 1684;Zoe;London;;0;UK;Europe;;2024-04-11;20,0;;;Healthcare;Series B;89;2024;51,4893335;-0,144055085
 1685;Criteo;Paris;;0;France;Europe;140;2024-04-12;4,0;3500 ;3360 ;Marketing;Unknown;;2024;48,8588897;2,320041022
 1686;Criteo;Paris;;0;France;Europe;140;2024-04-12;4,0;3500 ;3360 ;Marketing;Post-IPO;61;2024;48,8588897;2,320041022
@@ -1705,7 +1705,7 @@
 1704;The Good Glamour;New Delhi;;0;India;Asia;150;2024-04-18;15,0;1000 ;850 ;Retail;Unknown;180;2024;28,6138954;77,2090057
 1705;Homie;Salt Lake City;;Utah;USA;North America;;2024-04-19;;;;Real Estate;Series B;35;2024;40,7596198;-111,886797
 1706;OutSystems;Boston;;Massachusetts;USA;North America;150;2024-04-19;8,0;1875 ;1725 ;Product;Series G;802;2024;42,3554334;-71,060511
-1707;Post.;New York City;;New York;USA;North America;;2024-04-19;100,0;0 ;0 ;Social posting site;Unknown;;2024;40,7127281;-74,0060152
+1707;Post.;New York City;;New York;USA;North America;;2024-04-19;100,0;;0 ;Social posting site;Unknown;;2024;40,7127281;-74,0060152
 1708;98point6;Seattle;;Washington;USA;North America;;2024-04-23;;;;Healthcare;Acquired;;2024;47,6038321;-122,330062
 1709;Expedia;Austin;;Texas;USA;North America;84;2024-04-24;;;;Travel;Post-IPO;3;2024;30,2711286;-97,7436995
 1710;Freenome;San Francisco;San Francisco Bay Area;California;USA;North America;100;2024-04-24;20,0;500 ;400 ;Healthcare;Unknown;;2024;37,7792588;-122,4193286
@@ -1724,12 +1724,12 @@
 1723;Ola;Bengaluru;;0;India;Asia;180;2024-04-29;10,0;1800 ;1620 ;Transportation;Series J;3800;2024;12,98815675;77,62260004
 1724;Akili Interactive;Boston;;Massachusetts;USA;North America;;2024-04-30;46,0;;;Healthcare;Post-IPO;;2024;42,3554334;-71,060511
 1725;Google;Mountain View;San Francisco Bay Area;California;USA;North America;;2024-04-30;;;;Consumer;Post-IPO;26;2024;37,3893889;-122,0832101
-1726;KeokeN;Hoofddorp;;0;Netherlands;Europe;;2024-04-30;100,0;0 ;0 ;Gaming;Unknown;;2024;52,305554;4,6926644
+1726;KeokeN;Hoofddorp;;0;Netherlands;Europe;;2024-04-30;100,0;;0 ;Gaming;Unknown;;2024;52,305554;4,6926644
 1727;RiseUp;London;;0;UK;Europe;50;2024-04-30;50,0;100 ;50 ;Fintech;Series B;30;2024;51,4893335;-0,144055085
 1728;Tesla;Austin;;Texas;USA;North America;500;2024-04-30;;;;Transportation;Unknown;;2024;30,2711286;-97,7436995
 1729;Assurance;Seattle;;Washington;USA;North America;112;2024-05-01;100,0;112 ;0 ;Insurance;Unknown;;2024;47,6038321;-122,330062
 1730;Google;Mountain View;San Francisco Bay Area;California;USA;North America;200;2024-05-01;;;;Consumer;Post-IPO;26;2024;37,3893889;-122,0832101
-1731;Sproutt;Hartford;;Connecticut;USA;North America;;2024-05-01;100,0;0 ;0 ;Insurance;Series B;38;2024;41,764582;-72,6908547
+1731;Sproutt;Hartford;;Connecticut;USA;North America;;2024-05-01;100,0;;0 ;Insurance;Series B;38;2024;41,764582;-72,6908547
 1732;Cabify;Madrid;;0;Spain;Europe;29;2024-05-02;;;;Transportation;Unknown;;2024;40,4167047;-3,7035825
 1733;Google;Mountain View;San Francisco Bay Area;California;USA;North America;200;2024-05-02;;;;Consumer;Post-IPO;26;2024;37,3893889;-122,0832101
 1734;Peloton;New York City;;New York;USA;North America;400;2024-05-02;15,0;2667 ;2267 ;Fitness;Post-IPO;1900;2024;40,7127281;-74,0060152
@@ -1743,7 +1743,7 @@
 1742;Motional;Pittsburgh;;Pennsylvania;USA;North America;;2024-05-07;;;;Transportation;Unknown;;2024;40,4416941;-79,9900861
 1743;Arkane Studios;Austin;;Texas;USA;North America;96;2024-05-08;100,0;96 ;0 ;Consumer;Unknown;;2024;30,2711286;-97,7436995
 1744;Brilliant;San Francisco;San Francisco Bay Area;California;USA;North America;;2024-05-08;100,0;;0 ;Hardware;Unknown;;2024;37,7792588;-122,4193286
-1745;Kinaxis;Ottawa;;0;Canada;North America;;2024-05-08;6,0;0 ;0 ;Other;Post-IPO;79;2024;45,4208777;-75,6901106
+1745;Kinaxis;Ottawa;;0;Canada;North America;;2024-05-08;6,0;;;Other;Post-IPO;79;2024;45,4208777;-75,6901106
 1746;PrepLadder;New Delhi;;0;India;Asia;145;2024-05-08;25,0;580 ;435 ;Education;Unknown;;2024;28,6138954;77,2090057
 1747;Simpl;Bengaluru;;0;India;Asia;100;2024-05-08;15,0;667 ;567 ;Finance;Series B;71;2024;12,98815675;77,62260004
 1748;Sight Diagnostics;Tel Aviv;;0;Israel;Asia;40;2024-05-09;30,0;133 ;93 ;Healthcare;Series D;124;2024;32,0852997;34,7818064
@@ -1754,21 +1754,21 @@
 1753;Rivian;Palo Alto;San Francisco Bay Area;California;USA;North America;120;2024-05-10;;;;Transportation;Post-IPO;10700;2024;37,4443293;-122,1598465
 1754;Indeed;Austin;;Texas;USA;North America;1000;2024-05-13;8,0;12500 ;11500 ;HR;Acquired;5;2024;30,2711286;-97,7436995
 1755;Mighty Kingdom;Adelaide;;0;Australia;Australia;;2024-05-13;28,0;;;Gaming;Unknown;;2024;-34,9281805;138,5999312
-1756;Mainvest;Boston;;Massachusetts;USA;North America;;2024-05-14;100,0;0 ;0 ;Finance;Unknown;3;2024;42,3554334;-71,060511
+1756;Mainvest;Boston;;Massachusetts;USA;North America;;2024-05-14;100,0;;0 ;Finance;Unknown;3;2024;42,3554334;-71,060511
 1757;Atmosphere;Austin;;Texas;USA;North America;100;2024-05-15;;;;Entertainment Providers;Series D;214;2024;30,2711286;-97,7436995
 1758;Gopuff;Philadelphia;;Pennsylvania;USA;North America;;2024-05-16;6,0;;;Food;Series H;3400;2024;39,9527237;-75,1635262
-1759;Karhoo;London;;0;UK;North America;;2024-05-16;100,0;0 ;0 ;Transportation;Acquired;39;2024;51,4893335;-0,144055085
+1759;Karhoo;London;;0;UK;North America;;2024-05-16;100,0;;0 ;Transportation;Acquired;39;2024;51,4893335;-0,144055085
 1760;Phoenix Labs;Vancouver;;0;Canada;North America;100;2024-05-16;;;;Gaming;Unknown;;2024;49,2608724;-123,113952
 1761;Replit;San Francisco;San Francisco Bay Area;California;USA;North America;30;2024-05-16;20,0;150 ;120 ;Software Development;Unknown;222;2024;37,7792588;-122,4193286
 1762;Singularity 6;Los Angeles;;California;USA;North America;36;2024-05-16;;;;Gaming;Series B;39;2024;34,0536909;-118,242766
 1763;Toshiba;Tokyo;;0;Japan;Asia;4000;2024-05-16;;;;Appliances;Post-IPO;;2024;35,6821936;139,762221
 1764;Wefox;Berlin;;Berlin;Germany;Europe;60;2024-05-16;;;;Finance;Series D;1300;2024;52,5170365;13,3888599
-1765;Joonko;New York City;;New York;USA;North America;;2024-05-19;100,0;0 ;0 ;HR;Series B;38;2024;40,7127281;-74,0060152
+1765;Joonko;New York City;;New York;USA;North America;;2024-05-19;100,0;;0 ;HR;Series B;38;2024;40,7127281;-74,0060152
 1766;SeekOut;Seattle;;Washington;USA;North America;;2024-05-20;30,0;;;HR;Series C;;2024;47,6038321;-122,330062
 1767;Exscientia;Oxford;;0;UK;Europe;;2024-05-21;25,0;;;Biotechnology Research;Unknown;;2024;51,7520131;-1,2578499
 1768;TikTok;Los Angeles;;California;USA;North America;1000;2024-05-21;;;;Entertainment Providers;Acquired;;2024;34,0536909;-118,242766
 1769;Guild;Denver;;Colorado;USA;North America;300;2024-05-22;25,0;1200 ;900 ;Education;Series F;643;2024;39,7392364;-104,984862
-1770;Silo;San Francisco;San Francisco Bay Area;California;USA;North America;;2024-05-22;30,0;0 ;0 ;Food;Series C;272;2024;37,7792588;-122,4193286
+1770;Silo;San Francisco;San Francisco Bay Area;California;USA;North America;;2024-05-22;30,0;;;Food;Series C;272;2024;37,7792588;-122,4193286
 1771;Cue Health;San Diego;;California;USA;North America;180;2024-05-23;100,0;180 ;0 ;Healthcare;Post-IPO;899;2024;32,7174202;-117,162772
 1772;Lucid Motors;Newark;San Francisco Bay Area;California;USA;North America;400;2024-05-24;6,0;6667 ;6267 ;Transportation;Post-IPO;8300;2024;37,52966;-122,04024
 1773;Satellogic;Montevideo;;0;Uruquay;South America;34;2024-05-24;13,0;262 ;228 ;Aerospace;Post-IPO;424;2024;-34,901112;-56,164532
@@ -1798,7 +1798,7 @@
 1797;Kissflow;Chennai;;0;India;Asia;45;2024-06-10;11,0;409 ;364 ;SaaS;Unknown;;2024;13,0836939;80,270186
 1798;Paytm;Noida;;0;India;Asia;3500;2024-06-10;;;;Finance;Unknown;;2024;28,5706333;77,3272147
 1799;Agilent Technologies;Santa Clara;San Francisco Bay Area;California;USA;North America;184;2024-06-11;;;;Biotechnology Research;Unknown;;2024;37,354107;-121,955238
-1800;Ladenzeile;Berlin;;Berlin;Germany;Europe;;2024-06-11;100,0;0 ;0 ;Retail;Subsidiary;;2024;52,5170365;13,3888599
+1800;Ladenzeile;Berlin;;Berlin;Germany;Europe;;2024-06-11;100,0;;0 ;Retail;Subsidiary;;2024;52,5170365;13,3888599
 1801;Lionbridge;Waltham;;Massachusetts;USA;North America;160;2024-06-11;;;;Translation and Localization;Unknown;;2024;42,3756401;-71,2358004
 1802;Sumo Group;Sheffield;;Alabama;USA;North America;;2024-06-11;15,0;;;Gaming;Unknown;;2024;34,7650888;-87,6986407
 1803;Meta;Menlo Park;;California;USA;North America;50;2024-06-12;;;;Software Development;Unknown;;2024;37,4519671;-122,177992
@@ -1809,9 +1809,9 @@
 1808;ByteDance;Indonesia;;0;Indonesia;Asia;450;2024-06-14;;;;Consumer;Unknown;;2024;-2,4833826;117,8902853
 1809;Cypress.io;Atlanta;;Georgia;USA;North America;11;2024-06-14;;;;Product;Series B;54;2024;33,7489924;-84,3902644
 1810;Care/of;New York City;;New York;USA;North America;143;2024-06-15;100,0;143 ;0 ;Healthcare;Acquired;83;2024;40,7127281;-74,0060152
-1811;Galvanic Gaming;Seattle;;Washington;USA;North America;;2024-06-16;100,0;0 ;0 ;Gaming;Unknown;;2024;47,6038321;-122,330062
+1811;Galvanic Gaming;Seattle;;Washington;USA;North America;;2024-06-16;100,0;;0 ;Gaming;Unknown;;2024;47,6038321;-122,330062
 1812;Moovit;Ness Ziona;;0;Israel;Asia;23;2024-06-16;10,0;230 ;207 ;Transportation;Acquired;131;2024;31,9208636;34,79413999
-1813;Running Tide;Portland;;Oregon;USA;North America;;2024-06-16;100,0;0 ;0 ;Environmental Services;Acquired;83;2024;45,5202471;-122,674194
+1813;Running Tide;Portland;;Oregon;USA;North America;;2024-06-16;100,0;;0 ;Environmental Services;Acquired;83;2024;45,5202471;-122,674194
 1814;Chegg;Santa Clara;San Francisco Bay Area;California;USA;North America;441;2024-06-17;23,0;1917 ;1476 ;Education;Post-IPO;;2024;37,354107;-121,955238
 1815;Loop;Austin;;Texas;USA;North America;23;2024-06-17;77,0;30 ;7 ;Insurance;Series A;34;2024;30,2711286;-97,7436995
 1816;Satellogic;Montevideo;;0;Uruquay;South America;70;2024-06-17;30,0;233 ;163 ;Aerospace;Post-IPO;424;2024;-34,901112;-56,164532
@@ -1843,30 +1843,30 @@
 1842;Moov;Cedar Falls;;Iowa;USA;North America;50;2024-09-25;;;;Finance;Series B;77;2024;42,534901;-92,445312
 1843;FreightWaves;Chattanooga;;Tennessee;USA;North America;16;2024-09-24;;;;Logistics;Private Equity;92;2024;35,045631;-85,309677
 1844;F5;Seattle;;Washington;USA;North America;;2024-09-24;;;;Security;Post-IPO;;2024;47,6038321;-122,330062
-1845;Olo;New York City;;New York;USA;North America;;2024-09-23;9,0;0 ;0 ;Food;Post-IPO;184;2024;40,7127281;-74,0060152
+1845;Olo;New York City;;New York;USA;North America;;2024-09-23;9,0;;;Food;Post-IPO;184;2024;40,7127281;-74,0060152
 1846;Healthy.io;Tel Aviv ;;0;USA;Asia;40;2024-09-22;30,0;133 ;93 ;Healthcare;Series D;185;2024;32,109333;34,855499
 1847;Reverb;Chicago;;Illinois;USA;North America;40;2024-09-20;;;;Retail;Acquired;47;2024;41,8755616;-87,6244212
-1848;Luminar;Orlando;;Florida;USA;North America;;2024-09-20;15,0;0 ;0 ;Transportion;Post-IPO;780;2024;28,5421109;-81,3790304
-1849;Notable Labs;Foster City;San Francisco Bay Area;California;USA;North America;;2024-09-20;65,0;0 ;0 ;Healthcare;Series B;;2024;37,5618811;-122,266445
+1848;Luminar;Orlando;;Florida;USA;North America;;2024-09-20;15,0;;;Transportion;Post-IPO;780;2024;28,5421109;-81,3790304
+1849;Notable Labs;Foster City;San Francisco Bay Area;California;USA;North America;;2024-09-20;65,0;;;Healthcare;Series B;;2024;37,5618811;-122,266445
 1850;CarTrawler;Dublin;;0;Ireland;Europe;40;2024-09-19;10,0;400 ;360 ;Transportion;Acquired;;2024;53,3493795;-6,2605593
-1851;ApplyBoard;Waterloo;;0;Canada;North America;;2024-09-19;4,0;0 ;0 ;Education;Series D;483;2024;43,4652699;-80,5222961
+1851;ApplyBoard;Waterloo;;0;Canada;North America;;2024-09-19;4,0;;;Education;Series D;483;2024;43,4652699;-80,5222961
 1852;Aakash;New Delhi;;0;India;Asia;80;2024-09-18;;;;Education;Acquired;;2024;28,6138954;77,2090057
 1853;IBM;New York City;;New York;USA;North America;;2024-09-18;;;;Hardware;Post-IPO;;2024;40,7127281;-74,0060152
 1854;Runtastic;Linz;;0;Austria;Europe;170;2024-09-16;;;;Fitness;Acquired;;2024;48,30639;14,28611
 1855;Microsoft;Seattle;;Washington;USA;North America;650;2024-09-12;;;;Other;Post-IPO;1;2024;47,6038321;-122,330062
-1856;Amperity;Seattle;;Washington;USA;North America;;2024-09-12;13,0;0 ;0 ;Marketing;Series D;187;2024;47,6038321;-122,330062
+1856;Amperity;Seattle;;Washington;USA;North America;;2024-09-12;13,0;;0 ;Marketing;Series D;187;2024;47,6038321;-122,330062
 1857;Udemy;San Francisco;San Francisco Bay Area;California;USA;North America;280;2024-09-11;;;;Education;Post-IPO;311;2024;37,7792588;-122,4193286
 1858;Mobileye;Jerusalem;;0;Israel;Asia;100;2024-09-09;;;;Transportion;Post-IPO;2;2024;31,78847185;35,21879441
-1859;InsurStaq.ai;New Delhi;;0;India;Asia;;2024-09-09;100,0;0 ;0 ;AI;Seed;;2024;28,6138954;77,2090057
-1860;Nori;Seattle;;Washington;USA;North America;;2024-09-09;100,0;0 ;0 ;Energy;Unknown;19;2024;47,6038321;-122,330062
+1859;InsurStaq.ai;New Delhi;;0;India;Asia;;2024-09-09;100,0;;0 ;AI;Seed;;2024;28,6138954;77,2090057
+1860;Nori;Seattle;;Washington;USA;North America;;2024-09-09;100,0;;0 ;Energy;Unknown;19;2024;47,6038321;-122,330062
 1861;WeTransfer;Amsterdam;;0;Netherlands;Europe;260;2024-09-08;75,0;347 ;87 ;Other;Acquired;64;2024;52,3730796;4,8924534
 1862;Goop;Los Angeles;;California;USA;North America;39;2024-09-06;18,0;217 ;178 ;Retail;Unknown;75;2024;34,0536909;-118,242766
-1863;Motif Foodworks;Boston;;Massachusetts;USA;North America;;2024-09-06;100,0;0 ;0 ;Food;Unknown;343;2024;42,3554334;-71,060511
+1863;Motif Foodworks;Boston;;Massachusetts;USA;North America;;2024-09-06;100,0;;0 ;Food;Unknown;343;2024;42,3554334;-71,060511
 1864;ChargePoint;Campbell;San Francisco Bay Area;California;USA;North America;250;2024-09-04;15,0;1667 ;1417 ;Manufacturing;Unknown;1;2024;37,287167;-121,949959
 1865;Fly.io;Chicago;;Illinois;USA;North America;40;2024-09-04;;;;Infrastructure;Series C;110;2024;41,8755616;-87,6244212
 1866;Lyft;San Francisco;San Francisco Bay Area;California;USA;North America;30;2024-09-04;1,0;3000 ;2970 ;Transportion;Post-IPO;5;2024;37,7792588;-122,4193286
 1867;ABL;Los Angeles;;California;USA;North America;;2024-09-03;;;;Aerospace;Unknown;479;2024;34,0536909;-118,242766
-1868;Matter Labs;Berlin;;Berlin;Germany;Europe;;2024-09-03;16,0;0 ;0 ;Crypto;Unknown;380;2024;52,5170365;13,3888599
+1868;Matter Labs;Berlin;;Berlin;Germany;Europe;;2024-09-03;16,0;;;Crypto;Unknown;380;2024;52,5170365;13,3888599
 1869;Dozee;Bengaluru;;0;India;Asia;40;2024-09-02;;;;Healthcare;Series A;26;2024;12,98815675;77,62260004
 1870;Dunzo;Bengaluru;;0;India;Asia;150;2024-08-31;75,0;200 ;50 ;Food;Unknown;458;2024;12,98815675;77,62260004
 1871;Character.ai;Menlo Park;San Francisco Bay Area;California;USA;North America;6;2024-08-29;5,0;120 ;114 ;AI;Series A;150;2024;37,4519671;-122,177992
@@ -1875,41 +1875,41 @@
 1874;IBM;Beijing;;0;China;Asia;1000;2024-08-26;;;;Hardware;Post-IPO;;2024;39,916668;116,383331
 1875;Tome Biosciences;Boston;;Massachusetts;USA;North America;131;2024-08-26;100,0;131 ;0 ;Healthcare;Series A;213;2024;42,3554334;-71,060511
 1876;Velo3D;Fremont;San Francisco Bay Area;California;USA;North America;42;2024-08-26;;;;Manufacturing;Post-IPO;305;2024;37,5482697;-121,988571
-1877;Kenko Health;Mumbai;;0;India;Asia;;2024-08-23;100,0;0 ;0 ;Healthcare;Series A;14;2024;19,0785451;72,878176
-1878;Received;New York City;;New York;USA;North America;;2024-08-23;100,0;0 ;0 ;Finance;Unknown;;2024;40,7127281;-74,0060152
+1877;Kenko Health;Mumbai;;0;India;Asia;;2024-08-23;100,0;;0 ;Healthcare;Series A;14;2024;19,0785451;72,878176
+1878;Received;New York City;;New York;USA;North America;;2024-08-23;100,0;;0 ;Finance;Unknown;;2024;40,7127281;-74,0060152
 1879;Sandvine;Waterloo;;0;Canada;North America;;2024-08-23;;;;Infrastructure;Acquired;63;2024;43,4652699;-80,5222961
 1880;Redfin;Seattle;;Washington;USA;North America;82;2024-08-22;2,0;4100 ;4018 ;Real Estate;Post-IPO;320;2024;47,6038321;-122,330062
-1881;Kaiyo;New York City;;New York;USA;North America;;2024-08-21;100,0;0 ;0 ;Retail;Series B;43;2024;40,7127281;-74,0060152
+1881;Kaiyo;New York City;;New York;USA;North America;;2024-08-21;100,0;;0 ;Retail;Series B;43;2024;40,7127281;-74,0060152
 1882;Skip the Dishes;Winnipeg;;0;Canada;North America;800;2024-08-20;;;;Food;Acquired;8;2024;49,895077;-97,138451
 1883;Five9;San Ramon;San Francisco Bay Area;California;USA;North America;190;2024-08-20;7,0;2714 ;2524 ;Support;Post-IPO;862;2024;37,77466357;-121,9734961
-1884;ReshaMandi;Bengaluru;;0;India;Asia;;2024-08-20;100,0;0 ;0 ;Food;Unknown;54;2024;12,98815675;77,62260004
+1884;ReshaMandi;Bengaluru;;0;India;Asia;;2024-08-20;100,0;;0 ;Food;Unknown;54;2024;12,98815675;77,62260004
 1885;GoPro;San Mateo;San Francisco Bay Area;California;USA;North America;139;2024-08-19;15,0;927 ;788 ;Consumer;Post-IPO;288;2024;37,496904;-122,3330573
 1886;Localize;New York City;;New York;USA;North America;;2024-08-19;;;;Real Estate;Series A;40;2024;40,7127281;-74,0060152
 1887;Paper;Montreal;;0;Canada;North America;81;2024-08-16;45,0;180 ;99 ;Education;Series D;389;2024;45,5031824;-73,5698065
 1888;Retention.com;Austin;;Texas;USA;North America;15;2024-08-16;;;;Marketing;Unknown;;2024;30,2711286;-97,7436995
 1889;Loop;Columbus;;Ohio;USA;North America;;2024-08-16;;;;Retail;Series B;125;2024;39,9622601;-83,0007065
-1890;Regrow Ag;Durham;;North Carolina;USA;North America;;2024-08-16;19,0;0 ;0 ;Food;Series B;64;2024;35,996653;-78,9018053
+1890;Regrow Ag;Durham;;North Carolina;USA;North America;;2024-08-16;19,0;;;Food;Series B;64;2024;35,996653;-78,9018053
 1891;AppLovin;Palo Alto;San Francisco Bay Area;California;USA;North America;61;2024-08-15;;;;Marketing;Post-IPO;2;2024;37,4443293;-122,1598465
 1892;Inuitive;Ra'anana;;0;Israel;Asia;16;2024-08-15;20,0;80 ;64 ;Manufacturing;Unknown;23;2024;32,1860244;34,8678359
 1893;Formlabs;Boston;;Massachusetts;USA;North America;;2024-08-15;;;;Hardware;Series E;254;2024;42,3554334;-71,060511
-1894;Mister Spex;Berlin;;Berlin;Germany;Europe;;2024-08-15;10,0;0 ;0 ;Retail;Post-IPO;158;2024;52,5170365;13,3888599
+1894;Mister Spex;Berlin;;Berlin;Germany;Europe;;2024-08-15;10,0;;;Retail;Post-IPO;158;2024;52,5170365;13,3888599
 1895;PacketFabric;Los Angeles;;California;USA;North America;;2024-08-15;;;;Infrastructure;Unknown;110;2024;34,0536909;-118,242766
-1896;Sampler;Toronto;;0;Canada;North America;;2024-08-15;100,0;0 ;0 ;Retail;Series B;10;2024;43,6534817;-79,3839347
+1896;Sampler;Toronto;;0;Canada;North America;;2024-08-15;100,0;;0 ;Retail;Series B;10;2024;43,6534817;-79,3839347
 1897;Sonos;Santa Barbara;;California;USA;North America;100;2024-08-14;6,0;1667 ;1567 ;Consumer;Post-IPO;455;2024;34,4221319;-119,702667
 1898;Grail;Menlo Park;San Francisco Bay Area;California;USA;North America;350;2024-08-13;;;;Healthcare;Post-IPO;;2024;37,4519671;-122,177992
-1899;DayTwo;Walnut Creek;San Francisco Bay Area;California;USA;North America;;2024-08-13;100,0;0 ;0 ;Healthcare;Series B;90;2024;37,910076;-122,065186
-1900;Quizac;Lagos ;;0;Nigeria;Africa;;2024-08-13;100,0;0 ;0 ;Education;Acquired;;2024;6,465422;3,406448
-1901;Tally;San Francisco;San Francisco Bay Area;California;USA;North America;;2024-08-12;100,0;0 ;0 ;Finance;Series C;172;2024;37,7792588;-122,4193286
+1899;DayTwo;Walnut Creek;San Francisco Bay Area;California;USA;North America;;2024-08-13;100,0;;0 ;Healthcare;Series B;90;2024;37,910076;-122,065186
+1900;Quizac;Lagos ;;0;Nigeria;Africa;;2024-08-13;100,0;;0 ;Education;Acquired;;2024;6,465422;3,406448
+1901;Tally;San Francisco;San Francisco Bay Area;California;USA;North America;;2024-08-12;100,0;;0 ;Finance;Series C;172;2024;37,7792588;-122,4193286
 1902;Cisco;San Jose;San Francisco Bay Area;California;USA;North America;5600;2024-08-09;7,0;80000 ;74400 ;Infrastructure;Post-IPO;2;2024;37,3361663;-121,890591
 1903;Branch.io;Palo Alto;San Francisco Bay Area;California;USA;North America;100;2024-08-09;;;;Marketing;Series F;667;2024;37,4443293;-122,1598465
 1904;iCIMS;Holmdel;;New Jersey;USA;North America;69;2024-08-09;;;;Recruiting;Acquired;93;2024;40,3306;-74,141
 1905;Ready Robotics;Columbus;;Ohio;USA;North America;;2024-08-09;;;;Manufacturing;Unknown;41;2024;39,9622601;-83,0007065
-1906;Fastly;San Francisco;San Francisco Bay Area;California;USA;North America;;2024-08-08;11,0;0 ;0 ;Infrastructure;Post-IPO;219;2024;37,7792588;-122,4193286
+1906;Fastly;San Francisco;San Francisco Bay Area;California;USA;North America;;2024-08-08;11,0;;;Infrastructure;Post-IPO;219;2024;37,7792588;-122,4193286
 1907;Eventbrite;San Francisco;San Francisco Bay Area;California;USA;North America;100;2024-08-07;11,0;909 ;809 ;Consumer;Post-IPO;557;2024;37,7792588;-122,4193286
-1908;LegalZoom;Los Angeles;;California;USA;North America;;2024-08-07;15,0;0 ;0 ;Legal;Post-IPO;952;2024;34,0536909;-118,242766
+1908;LegalZoom;Los Angeles;;California;USA;North America;;2024-08-07;15,0;;;Legal;Post-IPO;952;2024;34,0536909;-118,242766
 1909;Axios Media;Washington DC;;District of Columbia;USA;North America;50;2024-08-06;10,0;500 ;450 ;Media;Acquired;57;2024;38,8950368;-77,0365427
-1910;Mobius Motors;Nairobi;;0;Kenya;Africa;;2024-08-06;100,0;0 ;0 ;Transportion;Unknown;6;2024;-1,2832533;36,8172449
-1911;Teradata;San Diego;;California;USA;North America;;2024-08-06;13,0;0 ;0 ;Data;Post-IPO;;2024;32,7174202;-117,162772
+1910;Mobius Motors;Nairobi;;0;Kenya;Africa;;2024-08-06;100,0;;0 ;Transportion;Unknown;6;2024;-1,2832533;36,8172449
+1911;Teradata;San Diego;;California;USA;North America;;2024-08-06;13,0;;;Data;Post-IPO;;2024;32,7174202;-117,162772
 1912;Infineon;Munich;;Bayern;Germany;Europe;1400;2024-08-05;;;;Manufacturing;Post-IPO;2;2024;48,1371079;11,5753822
 1913;Jam City;Los Angeles;;California;USA;North America;85;2024-08-05;10,0;850 ;765 ;Consumer;Unknown;652;2024;34,0536909;-118,242766
 1914;Dell;Austin;;Texas;USA;North America;;2024-08-05;;;;Hardware;Post-IPO;;2024;30,2711286;-97,7436995
@@ -1919,17 +1919,17 @@
 1918;Bungie;Seattle;;Washington;USA;North America;220;2024-07-31;17,0;1294 ;1074 ;Consumer;Acquired;100;2024;47,6038321;-122,330062
 1919;Delivery Hero;Berlin;;Berlin;Germany;Europe;200;2024-07-31;;;;Food;Post-IPO;10;2024;52,5170365;13,3888599
 1920;Match Group;New York City;;New York;USA;North America;;2024-07-31;6,0;0 ;0 ;Consumer;Post-IPO;;2024;40,7127281;-74,0060152
-1921;NerdWallet;San Francisco;San Francisco Bay Area;California;USA;North America;;2024-07-30;15,0;0 ;0 ;Finance;Post-IPO;105;2024;37,7792588;-122,4193286
+1921;NerdWallet;San Francisco;San Francisco Bay Area;California;USA;North America;;2024-07-30;15,0;;;Finance;Post-IPO;105;2024;37,7792588;-122,4193286
 1922;Moxion Power;Richmond;San Francisco Bay Area;California;USA;North America;248;2024-07-29;100,0;248 ;0 ;Energy;Unknown;124;2024;37,5385087;-77,43428
 1923;OrCam;Jerusalem;;0;Israel;Asia;;2024-07-28;;;;Healthcare;Unknown;86;2024;31,78847185;35,21879441
 1924;Pocket FM;Bengaluru;;0;India;Asia;200;2024-07-27;;;;Media;Series D;212;2024;12,98815675;77,62260004
 1925;WayCool;Chennai;;0;India;Asia;200;2024-07-26;;;;Food;Unknown;363;2024;13,0836939;80,270186
-1926;Webflow;San Francisco;San Francisco Bay Area;California;USA;North America;;2024-07-25;8,0;0 ;0 ;Marketing;Series C;335;2024;37,7792588;-122,4193286
+1926;Webflow;San Francisco;San Francisco Bay Area;California;USA;North America;;2024-07-25;8,0;;;Marketing;Series C;335;2024;37,7792588;-122,4193286
 1927;Humble Games;San Francisco;San Francisco Bay Area;California;USA;North America;36;2024-07-23;100,0;36 ;0 ;Media;Acquired;4;2024;37,7792588;-122,4193286
 1928;Cohere;Toronto;;0;Canada;North America;20;2024-07-23;5,0;400 ;380 ;AI;Series D;935;2024;43,6534817;-79,3839347
-1929;Bluelearn;Bengaluru;;0;India;Asia;;2024-07-22;100,0;0 ;0 ;Education;Seed;4;2024;12,98815675;77,62260004
+1929;Bluelearn;Bengaluru;;0;India;Asia;;2024-07-22;100,0;;0 ;Education;Seed;4;2024;12,98815675;77,62260004
 1930;Magic Leap;Miami;;Florida;USA;North America;75;2024-07-19;;;;Consumer;Series E;4;2024;25,7741728;-80,19362
-1931;Mercari U.S.;Palo Alto;San Francisco Bay Area;California;USA;North America;;2024-07-19;50,0;0 ;0 ;Retail;Subsidiary;;2024;37,4443293;-122,1598465
+1931;Mercari U.S.;Palo Alto;San Francisco Bay Area;California;USA;North America;;2024-07-19;50,0;;;Retail;Subsidiary;;2024;37,4443293;-122,1598465
 1932;Aqua Security;Boston;;Massachusetts;USA;North America;50;2024-07-17;10,0;500 ;450 ;Security;Series E;325;2024;42,3554334;-71,060511
 1933;EverC;Tel Aviv;;0;Israel;Asia;16;2024-07-17;10,0;160 ;144 ;Security;Unknown;61;2024;32,0852997;34,7818064
 1934;Lex;New York City;;New York;USA;North America;;2024-07-17;;;;Consumer;Seed;7;2024;40,7127281;-74,0060152
@@ -1939,22 +1939,22 @@
 1938;SolarEdge;Tel Aviv;;0;Israel;Asia;400;2024-07-15;;;;Energy;Post-IPO;155;2024;32,0852997;34,7818064
 1939;Salesforce;San Francisco;San Francisco Bay Area;California;USA;North America;300;2024-07-15;;;;Sales;Post-IPO;65;2024;37,7792588;-122,4193286
 1940;Spotify;Stockholm;;0;Sweden;Europe;40;2024-07-15;;;;Media;Post-IPO;2;2024;59,3251172;18,0710935
-1941;SadaPay;Islamabad;;0;Pakistan;Asia;;2024-07-12;30,0;0 ;0 ;Finance;Acquired;20;2024;33,738045;73,084488
+1941;SadaPay;Islamabad;;0;Pakistan;Asia;;2024-07-12;30,0;;;Finance;Acquired;20;2024;33,738045;73,084488
 1942;MoxiWorks;Seattle;;Washington;USA;North America;;2024-07-11;;;;Real Estate;Private Equity;;2024;47,6038321;-122,330062
 1943;Intuit;Mountain View;San Francisco Bay Area;California;USA;North America;1800;2024-07-10;10,0;18000 ;16200 ;Finance;Post-IPO;18;2024;37,3893889;-122,0832101
 1944;Redbox;Chicago;;Illinois;USA;North America;1000;2024-07-10;100,0;1000 ;0 ;Media;Acquired;51;2024;41,8755616;-87,6244212
-1945;CyberProof;Los Angeles;;California;USA;North America;;2024-07-10;7,0;0 ;0 ;Security;Subsidiary;;2024;34,0536909;-118,242766
+1945;CyberProof;Los Angeles;;California;USA;North America;;2024-07-10;7,0;;;Security;Subsidiary;;2024;34,0536909;-118,242766
 1946;UIPath;New York City;;New York;USA;North America;420;2024-07-09;10,0;4200 ;3780 ;Other;Post-IPO;2;2024;40,7127281;-74,0060152
 1947;UKG;Boston;;Massachusetts;USA;North America;2200;2024-07-03;14,0;15714 ;13514 ;HR;Unknown;;2024;42,3554334;-71,060511
 1948;OpenText;Waterloo;;0;Canada;North America;1200;2024-07-03;2,0;60000 ;58800 ;Data;Post-IPO;1;2024;43,4652699;-80,5222961
 1949;Microsoft;Seattle;;Washington;USA;North America;;2024-07-03;;;;Other;Post-IPO;1;2024;47,6038321;-122,330062
 1950;Unacademy;Bengaluru;;0;India;Asia;250;2024-07-02;;;;Education;Series H;838;2024;12,98815675;77,62260004
-1951;Koo;Bengaluru;;0;India;Asia;;2024-07-02;100,0;0 ;0 ;Consumer;Unknown;51;2024;12,98815675;77,62260004
+1951;Koo;Bengaluru;;0;India;Asia;;2024-07-02;100,0;;0 ;Consumer;Unknown;51;2024;12,98815675;77,62260004
 1952;Lightricks;Jerusalem;;0;Israel;Asia;70;2024-07-01;12,0;583 ;513 ;Consumer;Series D;335;2024;31,78847185;35,21879441
 1953;Upside Foods;Berkeley;San Francisco Bay Area;California;USA;North America;26;2024-07-01;;;;Food;Unknown;598;2024;37,8708393;-122,272863
 1954;Sightful;Tel Aviv;;0;Israel;Asia;20;2024-07-01;33,0;61 ;41 ;Hardware;Unknown;61;2024;32,0852997;34,7818064
 1955;Cint;Stockholm;;0;Sweden;Europe;;2024-07-01;;;;Data;Post-IPO;17;2024;59,3251172;18,0710935
-1956;Ninja Van;Singapore;;0;Singapore;Asia;;2024-07-01;5,0;0 ;0 ;Transportion;Series E;974;2024;1,2899175;103,8519072
+1956;Ninja Van;Singapore;;0;Singapore;Asia;;2024-07-01;5,0;;;Transportion;Series E;974;2024;1,2899175;103,8519072
 1957;Priceline;Norwalk;;Connecticut;USA;North America;103;2024-06-28;7,0;1471 ;1368 ;Travel;Acquired;77;2024;41,1175966;-73,4078968
 1958;RealPage;Dallas;;Texas;USA;North America;260;2024-06-27;4,0;6500 ;6240 ;Real Estate;Acquired;105;2024;32,7762719;-96,7968559
 1959;Planet;San Francisco;San Francisco Bay Area;California;USA;North America;180;2024-06-26;17,0;1059 ;879 ;Aerospace;Post-IPO;574;2024;37,7792588;-122,4193286
@@ -1967,13 +1967,13 @@
 1966;Trade Republic;Berlin;;Berlin;Germany;Europe;;2024-06-23;;;;Finance;Unknown;1;2024;52,5170365;13,3888599
 1967;Ginkgo Bioworks;Boston;;Massachusetts;USA;North America;400;2024-06-20;35,0;1143 ;743 ;Healthcare;Post-IPO;2;2024;42,3554334;-71,060511
 1968;Bluevine;Tel Aviv;;0;Israel;Asia;;2024-06-20;;;;Finance;Unknown;769;2024;32,0852997;34,7818064
-1969;ReshaMandi;Bengaluru;;0;India;Asia;;2024-06-20;80,0;0 ;0 ;Food;Unknown;54;2024;12,98815675;77,62260004
+1969;ReshaMandi;Bengaluru;;0;India;Asia;;2024-06-20;80,0;;;Food;Unknown;54;2024;12,98815675;77,62260004
 1970;Emma Sleep;Frankfurt am Main;;Hessen;Germany;Europe;200;2024-06-19;18,0;1111 ;911 ;Retail;Acquired;;2024;50,1106444;8,6820917
 1971;Moovit;Tel Aviv;;0;Israel;Asia;20;2024-06-19;10,0;200 ;180 ;Transportion;Acquired;131;2024;32,0852997;34,7818064
 1972;Wex;Portland;;Oregon;USA;North America;375;2024-06-18;5,0;7500 ;7125 ;Finance;Post-IPO;400;2024;45,5202471;-122,674194
 1973;PayPal;San Jose;San Francisco Bay Area;California;Ireland;North America;85;2024-06-18;;;;Finance;Post-IPO;216;2024;37,3361663;-121,890591
 1974;Rapyd;Tel Aviv;;0;Israel;Asia;30;2024-06-18;;;;Finance;Unknown;770;2024;32,0852997;34,7818064
 1975;C2FO;Kansas City;;Kansas;USA;North America;16;2024-06-18;;;;Finance;Series H;537;2024;39,100105;-94,5781416
-1976;Fisker;Los Angeles;;California;USA;North America;;2024-06-18;100,0;0 ;0 ;Transportion;Post-IPO;2;2024;34,0536909;-118,242766
+1976;Fisker;Los Angeles;;California;USA;North America;;2024-06-18;100,0;;0 ;Transportion;Post-IPO;2;2024;34,0536909;-118,242766
 1977;Chegg;Santa Clara;San Francisco Bay Area;California;USA;North America;441;2024-06-17;23,0;1917 ;1476 ;Education;Post-IPO;227;2024;37,354107;-121,955238
-1978;Stackpath;Dallas;;Texas;USA;North America;;2024-06-17;100,0;0 ;0 ;Infrastructure;Series B;396;2024;32,7762719;-96,7968559
+1978;Stackpath;Dallas;;Texas;USA;North America;;2024-06-17;100,0;;0 ;Infrastructure;Series B;396;2024;32,7762719;-96,7968559
