@@ -1,26 +1,25 @@
 import pandas as pd
 
-df = pd.read_csv('/tech_layoffs_til_Q2_2024.csv')
+df = pd.read_csv('/Users/ulrike_imac_air/projects/DataScienceProjects/tech_layoffs_project/tech_layoffs_csv/tech_layoffs_til_Q3_2024.csv', sep=';')
 
 # Display the first few rows of the DataFrame
-display(df.head())
+df.head()
 
 # Display the DataFrame information
-display(df.info(verbose=True))
+df.info(verbose=True)
 
 # Convert latitude and longitude to the correct format
 df['latitude'] = df['latitude'].str.replace(',', '.').astype(float)
 df['longitude'] = df['longitude'].str.replace(',', '.').astype(float)
 
-import pandas as pd
 
-df1 = pd.read_csv('/tech_layoffs_location.csv', quotechar='"', delimiter=';')
+df1 = pd.read_csv('/Users/ulrike_imac_air/projects/DataScienceProjects/tech_layoffs_project/tech_layoffs_csv/tech_layoffs_til_Q3_2024.csv', quotechar='"', delimiter=';')
 
 # Display the first few rows of the DataFrame
-display(df1.head())
+df1.head()
 
 # Display the DataFrame information
-display(df1.info(verbose=True))
+df1.info(verbose=True)
 
 df1['latitude'] = df1['latitude'].str.replace(',', '.').astype(float)
 df1['longitude'] = df1['longitude'].str.replace(',', '.').astype(float)
@@ -43,7 +42,7 @@ icon_path = '/Users/ulrike_imac_air/projects/DataScienceProjects/tech_layoffs_pr
 # Iterate over each row in the filtered DataFrame
 for index, row in df1_filtered.iterrows():
     latitude, longitude = row['latitude'], row['longitude']
-    name = row["location_HQ"] 
+    name = row["Location_HQ"] 
     
     # Create a custom icon
     icon = folium.CustomIcon(icon_image=icon_path, icon_size=(30, 30))  # Adjust icon_size as needed
@@ -55,9 +54,8 @@ for index, row in df1_filtered.iterrows():
 fig.add_child(fmap)
 
 # Display the Figure
-display(fig)
+fig
 
-import pandas as pd
 import plotly.express as px
 
 # Filter the DataFrame for rows where Country is USA
@@ -74,8 +72,6 @@ st_cat = df[["State",
              "Location_HQ"]].groupby(["State",
                                        "Location_HQ"], as_index=False).size()
 
-import pandas as pd
-import plotly.express as px
 
 
 Ca_df = st_cat[st_cat['State'] == 'California']
@@ -91,8 +87,6 @@ re_cat = df[["Region",
              "Location_HQ"]].groupby(["Region",
                                        "Location_HQ"], as_index=False).size()
 
-import pandas as pd
-import plotly.express as px
 
 
 SF_df = re_cat[re_cat['Region'] == 'San Francisco Bay Area']
