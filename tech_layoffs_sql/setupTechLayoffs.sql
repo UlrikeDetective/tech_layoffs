@@ -24,4 +24,4 @@ CREATE TABLE techLayoffs (
 Drop table techLayoffs;
 
 COPY techLayoffs (Nr, Company, Location_HQ, Region, USState, Country, Continent, Laid_Off, Date_layoffs, Percentage, Company_Size_before_Layoffs, Company_Size_after_Layoffs, Industry, Stage, Money_Raised_in_mil, Year, latitude, longitude)
-FROM '/Users/ulrike_imac_air/projects/DataScienceProjects/tech_layoffs_project/tech_layoffs_csv/tech_layoffs_til_Q4_2024.csv' DELIMITER ','CSV HEADER;
+FROM '/Users/ulrike_imac_air/projects/DataScienceProjects/tech_layoffs_project/tech_layoffs_csv/tech_layoffs_til_Q4_2024.csv' DELIMITER ';' CSV HEADER;
