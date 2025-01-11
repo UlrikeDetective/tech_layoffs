@@ -1,216 +1,216 @@
 ﻿location_HQ;Region;State;Country;Continent;latitude;longitude
-Adelaide;none;none;Australia;Oceana;-34,9281805;138,5999312
-Agoura Hills;none;California;USA;North America;34,1479100;-118,7657042
-Ahmedabad;none;none;India;Asia;23,0216238;72,5797068
+Adelaide;NA;NA;Australia;Oceana;-34,9281805;138,5999312
+Agoura Hills;NA;California;USA;North America;34,1479100;-118,7657042
+Ahmedabad;NA;NA;India;Asia;23,0216238;72,5797068
 Alameda;San Francisco Bay Area;California;USA;North America;37,6090291;-121,8991420
-Amsterdam;none;none;Netherlands;Europe;52,3730796;4,8924534
-Ann Arbor;none;Michigan;USA;North America;42,2813722;-83,7484616
-Atlanta;none;Georgia;USA;North America;33,7489924;-84,3902644
-Auckland;none;none;New Zealand;Oceana;-36,8520950;174,7631803
-Austin;none;Texas;USA;North America;30,2711286;-97,7436995
-Baltimore;none;Maryland;USA;North America;39,2908816;-76,6107590
-Bangkok;none;none;Thailand;Asia;13,7524938;100,4935089
-Barcelona;none;none;Spain;Europe;41,3828939;2,1774322
-Beijing;none;none;China;Asia;39,9166680;116,3833310
-Bejing;none;none;China;Asia;39,9057136;116,3912972
-Belleville;none;Michigan;USA;North America;38,5135805;-89,9841627
-Belo Horizonte;none;none;Brazil;South America;-19,9227318;-43,9450948
-Bend;none;Oregon;USA;North America;44,0581728;-121,3153096
-Bengaluru;none;none;India;Asia;12,9881568;77,6226000
+Amsterdam;NA;NA;Netherlands;Europe;52,3730796;4,8924534
+Ann Arbor;NA;Michigan;USA;North America;42,2813722;-83,7484616
+Atlanta;NA;Georgia;USA;North America;33,7489924;-84,3902644
+Auckland;NA;NA;New Zealand;Oceana;-36,8520950;174,7631803
+Austin;NA;Texas;USA;North America;30,2711286;-97,7436995
+Baltimore;NA;Maryland;USA;North America;39,2908816;-76,6107590
+Bangkok;NA;NA;Thailand;Asia;13,7524938;100,4935089
+Barcelona;NA;NA;Spain;Europe;41,3828939;2,1774322
+Beijing;NA;NA;China;Asia;39,9166680;116,3833310
+Bejing;NA;NA;China;Asia;39,9057136;116,3912972
+Belleville;NA;Michigan;USA;North America;38,5135805;-89,9841627
+Belo Horizonte;NA;NA;Brazil;South America;-19,9227318;-43,9450948
+Bend;NA;Oregon;USA;North America;44,0581728;-121,3153096
+Bengaluru;NA;NA;India;Asia;12,9881568;77,6226000
 Berkeley;San Francisco Bay Area;California;USA;North America;37,8708393;-122,2728630
-Berlin;none;Berlin;Germany;Europe;52,5170365;13,3888599
-Blumenau;none;none;Brazil;South America;-26,9195567;-49,0658025
-Boise;none;Idaho;USA;North America;43,6166163;-116,2008860
-Boston;none;Massachusetts;USA;North America;42,3554334;-71,0605110
-Boulder;none;Colorado;USA;North America;40,0149856;-105,2705450
-Brisbane;none;none;Australia;Oceana;-27,4689682;153,0234991
-Bristol;none;none;UK;Europe;51,4538022;-2,5972985
-Brno;none;none;Czech Republic;Europe;49,1922443;16,6113382
-Buenos Aires;none;none;Argentina;South America;-34,6037181;-58,3815300
+Berlin;NA;Berlin;Germany;Europe;52,5170365;13,3888599
+Blumenau;NA;NA;Brazil;South America;-26,9195567;-49,0658025
+Boise;NA;Idaho;USA;North America;43,6166163;-116,2008860
+Boston;NA;Massachusetts;USA;North America;42,3554334;-71,0605110
+Boulder;NA;Colorado;USA;North America;40,0149856;-105,2705450
+Brisbane;NA;NA;Australia;Oceana;-27,4689682;153,0234991
+Bristol;NA;NA;UK;Europe;51,4538022;-2,5972985
+Brno;NA;NA;Czech Republic;Europe;49,1922443;16,6113382
+Buenos Aires;NA;NA;Argentina;South America;-34,6037181;-58,3815300
 Burlingame;San Francisco Bay Area;California;USA;North America;37,5780965;-122,3473099
-Burlington;none;Vermont;USA;North America;44,4761601;-73,2129060
-Calgary;none;none;Canada;North America;51,0456064;-114,0575410
-Camarillo;none;California;USA;North America;34,2176371;-119,0383541
+Burlington;NA;Vermont;USA;North America;44,4761601;-73,2129060
+Calgary;NA;NA;Canada;North America;51,0456064;-114,0575410
+Camarillo;NA;California;USA;North America;34,2176371;-119,0383541
 Campbell;San Francisco Bay Area;California;USA;North America;37,2871670;-121,9499590
-Cayman Islands;none;none;Cayman Islands;North America;19,7031822;-79,9174627
-Cedar Falls;none;Iowa;USA;North America;42,5349010;-92,4453120
-Charleston;none;South Carolina;USA;North America;32,7884363;-79,9399309
-Chattanooga;none;Tennessee;USA;North America;35,0456310;-85,3096770
-Chennai;none;none;India;Asia;13,0836939;80,2701860
-Chester;none;none;UK;Europe;53,1908873;-2,8908955
-Chicago;none;Illinois;USA;North America;41,8755616;-87,6244212
-Cincinnati;none;Ohio;USA;North America;39,1014537;-84,5124602
-Columbus;none;Ohio;USA;North America;39,9622601;-83,0007065
-Copenhagen;none;none;Denmark;Europe;55,6867243;12,5700724
-Coral Gables;none;Florida;USA;North America;25,7331105;-80,2585107
-Corvallis;none;Oregon;USA;North America;44,5645659;-123,2620435
+Cayman Islands;NA;NA;Cayman Islands;North America;19,7031822;-79,9174627
+Cedar Falls;NA;Iowa;USA;North America;42,5349010;-92,4453120
+Charleston;NA;South Carolina;USA;North America;32,7884363;-79,9399309
+Chattanooga;NA;Tennessee;USA;North America;35,0456310;-85,3096770
+Chennai;NA;NA;India;Asia;13,0836939;80,2701860
+Chester;NA;NA;UK;Europe;53,1908873;-2,8908955
+Chicago;NA;Illinois;USA;North America;41,8755616;-87,6244212
+Cincinnati;NA;Ohio;USA;North America;39,1014537;-84,5124602
+Columbus;NA;Ohio;USA;North America;39,9622601;-83,0007065
+Copenhagen;NA;NA;Denmark;Europe;55,6867243;12,5700724
+Coral Gables;NA;Florida;USA;North America;25,7331105;-80,2585107
+Corvallis;NA;Oregon;USA;North America;44,5645659;-123,2620435
 Cupertino;San Francisco Bay Area;California;USA;North America;37,3228934;-122,0322895
-Curitiba;none;none;Brazil;South America;-25,4295963;-49,2712724
-Dakar;none;none;Senegal;Africa;14,6934250;-17,4479380
-Dallas;none;Texas;USA;North America;32,7762719;-96,7968559
-Denver;none;Colorado;USA;North America;39,7392364;-104,9848620
-Detroit;none;Michigan;USA;North America;42,3315509;-83,0466403
-Dover;none;Ohio;USA;North America;39,1581680;-75,5243682
-Dubai;none;none;United Arabian Emirates;Asia;25,2769870;55,2962490
-Dublin;none;none;Ireland;Europe;53,3493795;-6,2605593
-Durham;none;North Carolina;USA;North America;35,9966530;-78,9018053
-Edinburgh;none;none;UK;Europe;55,9533456;-3,1883749
-Espoo;none;none;Finland;Europe;60,2047672;24,6568435
-Ferdericton;none;none;Canada;North America;45,9649930;-66,6463320
-Florianopolis;none;none;Brazil;South America;-27,5973002;-48,5496098
+Curitiba;NA;NA;Brazil;South America;-25,4295963;-49,2712724
+Dakar;NA;NA;Senegal;Africa;14,6934250;-17,4479380
+Dallas;NA;Texas;USA;North America;32,7762719;-96,7968559
+Denver;NA;Colorado;USA;North America;39,7392364;-104,9848620
+Detroit;NA;Michigan;USA;North America;42,3315509;-83,0466403
+Dover;NA;Ohio;USA;North America;39,1581680;-75,5243682
+Dubai;NA;NA;United Arabian Emirates;Asia;25,2769870;55,2962490
+Dublin;NA;NA;Ireland;Europe;53,3493795;-6,2605593
+Durham;NA;North Carolina;USA;North America;35,9966530;-78,9018053
+Edinburgh;NA;NA;UK;Europe;55,9533456;-3,1883749
+Espoo;NA;NA;Finland;Europe;60,2047672;24,6568435
+Ferdericton;NA;NA;Canada;North America;45,9649930;-66,6463320
+Florianopolis;NA;NA;Brazil;South America;-27,5973002;-48,5496098
 Forster City;San Francisco Bay Area;California;USA;North America;37,5585465;-122,2710788
-Fort Collins;none;Colorado;USA;North America;40,5871782;-105,0770113
+Fort Collins;NA;Colorado;USA;North America;40,5871782;-105,0770113
 Foster City;San Francisco Bay Area;California;USA;North America;37,5618811;-122,2664450
-Frankfurt am Main;none;Hessen;Germany;Europe;50,1106444;8,6820917
+Frankfurt am Main;NA;Hessen;Germany;Europe;50,1106444;8,6820917
 Fremont;San Francisco Bay Area;California;USA;North America;37,5482697;-121,9885710
-Fresno;none;California;USA;North America;36,7394421;-119,7848300
-Ghent;none;none;Belgium;Europe;51,0538286;3,7250121
+Fresno;NA;California;USA;North America;36,7394421;-119,7848300
+Ghent;NA;NA;Belgium;Europe;51,0538286;3,7250121
 Gilroy;San Francisco Bay Area;California;USA;North America;37,0065078;-121,5631723
-Gothenburg;none;none;Sweden;Europe;57,7072326;11,9670171
-Greenwood Village;none;Colorado;USA;North America;39,6172101;-104,9508140
-Guadalajara;none;none;Mexico;North America;20,6720375;-103,3383960
-Gurugram;none;none;India;Asia;28,4646148;77,0299194
-Haifa;none;none;Israel;Asia;32,7993130;34,9895717
-Hamburg;none;Hamburg;Germany;Europe;53,5503410;10,0006540
-Hartford;none;Connecticut;USA;North America;41,7645820;-72,6908547
+Gothenburg;NA;NA;Sweden;Europe;57,7072326;11,9670171
+Greenwood Village;NA;Colorado;USA;North America;39,6172101;-104,9508140
+Guadalajara;NA;NA;Mexico;North America;20,6720375;-103,3383960
+Gurugram;NA;NA;India;Asia;28,4646148;77,0299194
+Haifa;NA;NA;Israel;Asia;32,7993130;34,9895717
+Hamburg;NA;Hamburg;Germany;Europe;53,5503410;10,0006540
+Hartford;NA;Connecticut;USA;North America;41,7645820;-72,6908547
 Hayward;San Francisco Bay Area;California;USA;North America;37,6688205;-122,0807960
-Helsinki;none;none;Finland;Europe;60,1674881;24,9427473
-Holmdel;none;New Jersey;USA;North America;40,3306000;-74,1410000
-Hong Kong;none;none;Hong Kong;Asia;22,2793278;114,1628131
-Hoofddorp;none;none;Netherlands;Europe;52,3055540;4,6926644
-Huntington Beach;none;California;USA;North America;33,6783336;-118,0000160
-Indianapolis;none;Indiana;USA;North America;39,7683331;-86,1583502
-Indonesia;none;none;Indonesia;Asia;-2,4833826;117,8902853
-Islamabad;none;none;Pakistan;Asia;33,7380450;73,0844880
-Jakarta;none;none;Indonesia;Asia;-6,1752470;106,8270488
-Jerusalem;none;none;Israel;Asia;31,7884719;35,2187944
-Joinville;none;none;Brazil;South America;-26,3044898;-48,8486726
-Kansas City;none;Kansas;USA;North America;39,1001050;-94,5781416
-Karachi;none;none;Pakistan;Asia;24,8546842;67,0207055
-Karlsruhe;none;Baden-Würtemberg;Germany;Europe;49,0068705;8,4034195
-Kfar Saba;none;none;Israel;Asia;32,1802349;34,9180542
-Kiel;none;Schleswig-Holstein;Germany;Europe;54,3227085;10,1355550
-Kitchener;none;none;Canada;North America;43,4512910;-80,4927815
-Krakow;none;none;Poland;Europe;50,0469432;19,9971534
-Kuala Lumpur;none;none;Malaysia;Asia;3,1516964;101,6942371
-Lagos;none;none;Nigeria;Africa;6,4550575;3,3941795
-Lagos ;none;none;Nigeria;Africa;6,4654220;3,4064480
-Las Vegas;none;Nevada;USA;North America;36,1672559;-115,1485160
-Leamington Spa;none;none;UK;Europe;52,2913394;-1,5364040
-Lehi;none;Utah;USA;North America;40,3881114;-111,8486019
-Linz;none;none;Austria;Europe;48,3063900;14,2861100
-Lisbon;none;none;Portugal;Europe;38,7077507;-9,1365919
-Lodz;none;none;Poland;Europe;51,7687323;19,4569911
-Logan;none;Utah;USA;North America;40,1075089;-89,3768539
-London;none;none;UK;Europe;51,4893335;-0,1440551
-Los Angeles;none;California;USA;North America;34,0536909;-118,2427660
+Helsinki;NA;NA;Finland;Europe;60,1674881;24,9427473
+Holmdel;NA;New Jersey;USA;North America;40,3306000;-74,1410000
+Hong Kong;NA;NA;Hong Kong;Asia;22,2793278;114,1628131
+Hoofddorp;NA;NA;Netherlands;Europe;52,3055540;4,6926644
+Huntington Beach;NA;California;USA;North America;33,6783336;-118,0000160
+Indianapolis;NA;Indiana;USA;North America;39,7683331;-86,1583502
+Indonesia;NA;NA;Indonesia;Asia;-2,4833826;117,8902853
+Islamabad;NA;NA;Pakistan;Asia;33,7380450;73,0844880
+Jakarta;NA;NA;Indonesia;Asia;-6,1752470;106,8270488
+Jerusalem;NA;NA;Israel;Asia;31,7884719;35,2187944
+Joinville;NA;NA;Brazil;South America;-26,3044898;-48,8486726
+Kansas City;NA;Kansas;USA;North America;39,1001050;-94,5781416
+Karachi;NA;NA;Pakistan;Asia;24,8546842;67,0207055
+Karlsruhe;NA;Baden-Würtemberg;Germany;Europe;49,0068705;8,4034195
+Kfar Saba;NA;NA;Israel;Asia;32,1802349;34,9180542
+Kiel;NA;Schleswig-Holstein;Germany;Europe;54,3227085;10,1355550
+Kitchener;NA;NA;Canada;North America;43,4512910;-80,4927815
+Krakow;NA;NA;Poland;Europe;50,0469432;19,9971534
+Kuala Lumpur;NA;NA;Malaysia;Asia;3,1516964;101,6942371
+Lagos;NA;NA;Nigeria;Africa;6,4550575;3,3941795
+Lagos ;NA;NA;Nigeria;Africa;6,4654220;3,4064480
+Las Vegas;NA;Nevada;USA;North America;36,1672559;-115,1485160
+Leamington Spa;NA;NA;UK;Europe;52,2913394;-1,5364040
+Lehi;NA;Utah;USA;North America;40,3881114;-111,8486019
+Linz;NA;NA;Austria;Europe;48,3063900;14,2861100
+Lisbon;NA;NA;Portugal;Europe;38,7077507;-9,1365919
+Lodz;NA;NA;Poland;Europe;51,7687323;19,4569911
+Logan;NA;Utah;USA;North America;40,1075089;-89,3768539
+London;NA;NA;UK;Europe;51,4893335;-0,1440551
+Los Angeles;NA;California;USA;North America;34,0536909;-118,2427660
 Los Gatos;San Francisco Bay Area;California;USA;North America;37,2266110;-121,9746797
-Madison;none;Wisconsin;USA;North America;43,0747610;-89,3837613
-Madrid;none;none;Spain;Europe;40,4167047;-3,7035825
-Malmö;none;none;Sweden;Europe;55,6052931;13,0001566
-Manchester;none;none;UK;Europe;53,4794892;-2,2451148
-Melbourne;none;none;Australia;Oceana;-37,8142454;144,9631732
-Memphis;none;Tennessee;USA;North America;35,1460249;-90,0517638
+Madison;NA;Wisconsin;USA;North America;43,0747610;-89,3837613
+Madrid;NA;NA;Spain;Europe;40,4167047;-3,7035825
+Malmö;NA;NA;Sweden;Europe;55,6052931;13,0001566
+Manchester;NA;NA;UK;Europe;53,4794892;-2,2451148
+Melbourne;NA;NA;Australia;Oceana;-37,8142454;144,9631732
+Memphis;NA;Tennessee;USA;North America;35,1460249;-90,0517638
 Menlo Park;San Francisco Bay Area;California;USA;North America;37,4519671;-122,1779920
-Mexico City;none;none;Mexico;North America;19,4326296;-99,1331785
-Miami;none;Florida;USA;North America;25,7741728;-80,1936200
+Mexico City;NA;NA;Mexico;North America;19,4326296;-99,1331785
+Miami;NA;Florida;USA;North America;25,7741728;-80,1936200
 Milpitas;San Francisco Bay Area;California;USA;North America;37,4332273;-121,8989248
-Milwaukee;none;Wisconsin;USA;North America;43,0386475;-87,9090751
-Minneapolis;none;Minnesota;USA;North America;44,9772995;-93,2654692
-Missoula;none;Montana;USA;North America;46,8701049;-113,9952670
-Montevideo;none;none;Uruquay;South America;-34,9011120;-56,1645320
-Montreal;none;none;Canada;North America;45,5031824;-73,5698065
-Moscow;none;none;Russia;Europe;55,7505412;37,6174782
+Milwaukee;NA;Wisconsin;USA;North America;43,0386475;-87,9090751
+Minneapolis;NA;Minnesota;USA;North America;44,9772995;-93,2654692
+Missoula;NA;Montana;USA;North America;46,8701049;-113,9952670
+Montevideo;NA;NA;Uruquay;South America;-34,9011120;-56,1645320
+Montreal;NA;NA;Canada;North America;45,5031824;-73,5698065
+Moscow;NA;NA;Russia;Europe;55,7505412;37,6174782
 Mountain View;San Francisco Bay Area;California;USA;North America;37,3893889;-122,0832101
-Mumbai;none;none;India;Asia;19,0785451;72,8781760
-Munich;none;Bayern;Germany;Europe;48,1371079;11,5753822
-Nairobi;none;none;Kenya;Africa;-1,2832533;36,8172449
-Nashik;none;none;India;Asia;20,0112475;73,7902364
-Nashua;none;New Hampshire;USA;North America;42,7656251;-71,4677032
-Nashville;none;Tennessee;USA;North America;36,1622767;-86,7742984
-Nebraska City;none;Nebraska;USA;North America;40,6765260;-95,8586940
-Ness Ziona;none;none;Israel;Asia;31,9208636;34,7941400
-New Delhi;none;none;India;Asia;28,6138954;77,2090057
-New York City;none;New York;USA;North America;40,7127281;-74,0060152
+Mumbai;NA;NA;India;Asia;19,0785451;72,8781760
+Munich;NA;Bayern;Germany;Europe;48,1371079;11,5753822
+Nairobi;NA;NA;Kenya;Africa;-1,2832533;36,8172449
+Nashik;NA;NA;India;Asia;20,0112475;73,7902364
+Nashua;NA;New Hampshire;USA;North America;42,7656251;-71,4677032
+Nashville;NA;Tennessee;USA;North America;36,1622767;-86,7742984
+Nebraska City;NA;Nebraska;USA;North America;40,6765260;-95,8586940
+Ness Ziona;NA;NA;Israel;Asia;31,9208636;34,7941400
+New Delhi;NA;NA;India;Asia;28,6138954;77,2090057
+New York City;NA;New York;USA;North America;40,7127281;-74,0060152
 Newark;San Francisco Bay Area;California;USA;North America;37,5296600;-122,0402400
-Noida;none;none;India;Asia;28,5706333;77,3272147
+Noida;NA;NA;India;Asia;28,5706333;77,3272147
 North Bethesda;San Francisco Bay Area;California;USA;North America;37,7739720;-122,4312970
-Norwalk;none;Connecticut;USA;North America;41,1175966;-73,4078968
+Norwalk;NA;Connecticut;USA;North America;41,1175966;-73,4078968
 Oakland;San Francisco Bay Area;California;USA;North America;37,8044557;-122,2713560
-Orlando;none;Florida;USA;North America;28,5421109;-81,3790304
-Oslo;none;none;Norway;Europe;59,9133301;10,7389701
-Ottawa;none;none;Canada;North America;45,4208777;-75,6901106
-Oxford;none;none;UK;Europe;51,7520131;-1,2578499
+Orlando;NA;Florida;USA;North America;28,5421109;-81,3790304
+Oslo;NA;NA;Norway;Europe;59,9133301;10,7389701
+Ottawa;NA;NA;Canada;North America;45,4208777;-75,6901106
+Oxford;NA;NA;UK;Europe;51,7520131;-1,2578499
 Palo Alto;San Francisco Bay Area;California;USA;North America;37,4443293;-122,1598465
-Paris;none;none;France;Europe;48,8588897;2,3200410
-Philadelphia;none;Pennsylvania;USA;North America;39,9527237;-75,1635262
-Phoenix;none;Arizona;USA;North America;33,4484367;-112,0741410
-Pittsburgh;none;Pennsylvania;USA;North America;40,4416941;-79,9900861
+Paris;NA;NA;France;Europe;48,8588897;2,3200410
+Philadelphia;NA;Pennsylvania;USA;North America;39,9527237;-75,1635262
+Phoenix;NA;Arizona;USA;North America;33,4484367;-112,0741410
+Pittsburgh;NA;Pennsylvania;USA;North America;40,4416941;-79,9900861
 Pleasanton;San Francisco Bay Area;California;USA;North America;37,6624312;-121,8746789
-Portland;none;Oregon;USA;North America;45,5202471;-122,6741940
-Prague;none;none;Czech Republic;Europe;50,0874654;14,4212535
-Pune;none;none;India;Asia;18,5214280;73,8544541
-Ra'anana;none;none;Israel;Asia;32,1860244;34,8678359
-Raleigh;none;North Carolina;USA;North America;35,7803977;-78,6390989
+Portland;NA;Oregon;USA;North America;45,5202471;-122,6741940
+Prague;NA;NA;Czech Republic;Europe;50,0874654;14,4212535
+Pune;NA;NA;India;Asia;18,5214280;73,8544541
+Ra'anana;NA;NA;Israel;Asia;32,1860244;34,8678359
+Raleigh;NA;North Carolina;USA;North America;35,7803977;-78,6390989
 Redwood City;San Francisco Bay Area;California;USA;North America;37,4863239;-122,2325230
-Reno;none;Nevada;USA;North America;39,5261206;-119,8126581
+Reno;NA;Nevada;USA;North America;39,5261206;-119,8126581
 Richmond;San Francisco Bay Area;California;USA;North America;37,5385087;-77,4342800
-Sacramento;none;California;USA;North America;38,5810606;-121,4938950
-Salisbury;none;none;UK;Europe;51,0690613;-1,7954134
-Salt Lake City;none;Utah;USA;North America;40,7596198;-111,8867970
+Sacramento;NA;California;USA;North America;38,5810606;-121,4938950
+Salisbury;NA;NA;UK;Europe;51,0690613;-1,7954134
+Salt Lake City;NA;Utah;USA;North America;40,7596198;-111,8867970
 San Bruno;San Francisco Bay Area;California;USA;North America;37,6248536;-122,4145986
 San Carlos;San Francisco Bay Area;California;USA;North America;37,5049360;-122,2618230
-San Diego;none;California;USA;North America;32,7174202;-117,1627720
+San Diego;NA;California;USA;North America;32,7174202;-117,1627720
 San Francisco;San Francisco Bay Area;California;USA;North America;37,7792588;-122,4193286
 San Jose;San Francisco Bay Area;California;USA;North America;37,3361663;-121,8905910
 San Leandro;San Francisco Bay Area;California;USA;North America;37,7249296;-122,1560768
-San Luis Obispo;none;California;USA;North America;35,3540209;-120,3757160
+San Luis Obispo;NA;California;USA;North America;35,3540209;-120,3757160
 San Mateo;San Francisco Bay Area;California;USA;North America;37,4969040;-122,3330573
 San Rafael;San Francisco Bay Area;California;USA;North America;37,9747795;-122,5316686
 San Ramon;San Francisco Bay Area;California;USA;North America;37,7746636;-121,9734961
-Santa Barbara;none;California;USA;North America;34,4221319;-119,7026670
+Santa Barbara;NA;California;USA;North America;34,4221319;-119,7026670
 Santa Clara;San Francisco Bay Area;California;USA;North America;37,3541070;-121,9552380
-Santa Fe;none;New Mexico;USA;North America;35,6876096;-105,9384560
-Santiago;none;none;Chile;South America;-33,4377756;-70,6504502
-Sao Paulo;none;none;Brazil;South America;-23,5506507;-46,6333824
-Saskatoon;none;none;Canada;North America;52,1318020;-106,6607670
-Seattle;none;Washington;USA;North America;47,6038321;-122,3300620
-Seoul;none;none;South Korea;Asia;37,5666791;126,9782914
-Shanghai;none;none;China;Asia;31,2312707;121,4700152
-Sheffield;none;Alabama;USA;North America;34,7650888;-87,6986407
-Singapore;none;none;Singapore;Asia;1,2899175;103,8519072
-Spokane;none;Washington;USA;North America;47,6571934;-117,4235100
-Stamford;none;Connecticut;USA;North America;41,0534302;-73,5387341
-Stockholm;none;none;Sweden;Europe;59,3251172;18,0710935
+Santa Fe;NA;New Mexico;USA;North America;35,6876096;-105,9384560
+Santiago;NA;NA;Chile;South America;-33,4377756;-70,6504502
+Sao Paulo;NA;NA;Brazil;South America;-23,5506507;-46,6333824
+Saskatoon;NA;NA;Canada;North America;52,1318020;-106,6607670
+Seattle;NA;Washington;USA;North America;47,6038321;-122,3300620
+Seoul;NA;NA;South Korea;Asia;37,5666791;126,9782914
+Shanghai;NA;NA;China;Asia;31,2312707;121,4700152
+Sheffield;NA;Alabama;USA;North America;34,7650888;-87,6986407
+Singapore;NA;NA;Singapore;Asia;1,2899175;103,8519072
+Spokane;NA;Washington;USA;North America;47,6571934;-117,4235100
+Stamford;NA;Connecticut;USA;North America;41,0534302;-73,5387341
+Stockholm;NA;NA;Sweden;Europe;59,3251172;18,0710935
 Sunnyvale;San Francisco Bay Area;California;USA;North America;37,3688301;-122,0363490
-Sydney;none;none;Australia;Oceana;-33,8698439;151,2082848
-Tallinn;none;none;Estonia;Europe;59,4372155;24,7453688
-Tampa;none;Florida;USA;North America;27,9477595;-82,4584440
-Tampa Bay;none;Florida;USA;North America;27,6886419;-82,5723193
-Tel Aviv;none;none;Israel;Asia;32,0852997;34,7818064
-Tel Aviv ;none;none;Israel;Asia;32,1093330;34,8554990
-Tokyo;none;none;Japan;Asia;35,6821936;139,7622210
-Toronto;none;none;Canada;North America;43,6534817;-79,3839347
-Vancouver;none;none;Canada;North America;49,2608724;-123,1139520
-Vienna;none;none;Austria;Europe;48,2083537;16,3725042
-Vilnius;none;none;Lithuania;Europe;54,6870458;25,2829111
-Walldorf;none;Baden-Würtemberg;Germany;Europe;49,3038134;8,6433518
+Sydney;NA;NA;Australia;Oceana;-33,8698439;151,2082848
+Tallinn;NA;NA;Estonia;Europe;59,4372155;24,7453688
+Tampa;NA;Florida;USA;North America;27,9477595;-82,4584440
+Tampa Bay;NA;Florida;USA;North America;27,6886419;-82,5723193
+Tel Aviv;NA;NA;Israel;Asia;32,0852997;34,7818064
+Tel Aviv ;NA;NA;Israel;Asia;32,1093330;34,8554990
+Tokyo;NA;NA;Japan;Asia;35,6821936;139,7622210
+Toronto;NA;NA;Canada;North America;43,6534817;-79,3839347
+Vancouver;NA;NA;Canada;North America;49,2608724;-123,1139520
+Vienna;NA;NA;Austria;Europe;48,2083537;16,3725042
+Vilnius;NA;NA;Lithuania;Europe;54,6870458;25,2829111
+Walldorf;NA;Baden-Würtemberg;Germany;Europe;49,3038134;8,6433518
 Walnut;San Francisco Bay Area;California;USA;North America;"	37,910076";-122,0651860
 Walnut Creek;San Francisco Bay Area;California;USA;North America;37,9100760;-122,0651860
-Waltham;none;Massachusetts;USA;North America;42,3756401;-71,2358004
-Warsaw;none;none;Poland;Europe;52,2337172;21,0714322
-Washington DC;none;District of Columbia;USA;North America;38,8950368;-77,0365427
-Waterloo;none;none;Canada;North America;43,4652699;-80,5222961
-Wellington;none;none;New Zealand;Oceana;-41,2887953;174,7772114
-Wilmington;none;Delaware;USA;North America;39,7459468;-75,5465890
-Winnipeg;none;none;Canada;North America;49,8950770;-97,1384510
-Xi'an;none;none;China;Asia;34,2610040;108,9423363
-Yavne;none;none;Israel;Asia;31,8768863;34,7382974
-Zurich;none;none;Switzerland;Europe;47,3744489;8,5410422
-Louisville;none;Kentucky;USA;North America;38,2239991;-85,7429970
-Sliema;none;none;Malta;Europe;35,9125000;14,5022200
-Nicosia;none;none;Cyprus;Europe;35,1666660;33,3666652
-Birmingham;none;Alabama;USA;North America;33,5166646;-86,7999968
+Waltham;NA;Massachusetts;USA;North America;42,3756401;-71,2358004
+Warsaw;NA;NA;Poland;Europe;52,2337172;21,0714322
+Washington DC;NA;District of Columbia;USA;North America;38,8950368;-77,0365427
+Waterloo;NA;NA;Canada;North America;43,4652699;-80,5222961
+Wellington;NA;NA;New Zealand;Oceana;-41,2887953;174,7772114
+Wilmington;NA;Delaware;USA;North America;39,7459468;-75,5465890
+Winnipeg;NA;NA;Canada;North America;49,8950770;-97,1384510
+Xi'an;NA;NA;China;Asia;34,2610040;108,9423363
+Yavne;NA;NA;Israel;Asia;31,8768863;34,7382974
+Zurich;NA;NA;Switzerland;Europe;47,3744489;8,5410422
+Louisville;NA;Kentucky;USA;North America;38,2239991;-85,7429970
+Sliema;NA;NA;Malta;Europe;35,9125000;14,5022200
+Nicosia;NA;NA;Cyprus;Europe;35,1666660;33,3666652
+Birmingham;NA;Alabama;USA;North America;33,5166646;-86,7999968
 Livermore;San Francisco Bay Area;California;USA;North America;37,6840234;-121,7712919
-Grand Rapids;none;Michigan;USA;North America;42,9668722;-85,6582553
-Sderot;none;none;Israel;Asia;31,5268870;34,5947952
+Grand Rapids;NA;Michigan;USA;North America;42,9668722;-85,6582553
+Sderot;NA;NA;Israel;Asia;31,5268870;34,5947952
