@@ -171,3 +171,11 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# Kaggle environment
+kaggle_env/
+kaggle_env/activate
+kaggle_env/activate.*
+kaggle_env/bin/pip
+kaggle_env/bin/python
+kaggle_env/bin/python*
