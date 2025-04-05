@@ -1,4 +1,4 @@
-Ôªølocation_HQ;Region;State;Country;Continent;latitude;longitude
+location_HQ;Region;State;Country;Continent;latitude;longitude
 Adelaide;;;Australia;Oceana;-34,9281805;138,5999312
 Agoura Hills;;California;USA;North America;34,1479100;-118,7657042
 Ahmedabad;;;India;Asia;23,0216238;72,5797068
@@ -87,7 +87,7 @@ Jerusalem;;;Israel;Asia;31,7884719;35,2187944
 Joinville;;;Brazil;South America;-26,3044898;-48,8486726
 Kansas City;;Kansas;USA;North America;39,1001050;-94,5781416
 Karachi;;;Pakistan;Asia;24,8546842;67,0207055
-Karlsruhe;;Baden-W√ºrtemberg;Germany;Europe;49,0068705;8,4034195
+Karlsruhe;;Baden-Würtemberg;Germany;Europe;49,0068705;8,4034195
 Kfar Saba;;;Israel;Asia;32,1802349;34,9180542
 Kiel;;Schleswig-Holstein;Germany;Europe;54,3227085;10,1355550
 Kitchener;;;Canada;North America;43,4512910;-80,4927815
@@ -100,14 +100,16 @@ Leamington Spa;;;UK;Europe;52,2913394;-1,5364040
 Lehi;;Utah;USA;North America;40,3881114;-111,8486019
 Linz;;;Austria;Europe;48,3063900;14,2861100
 Lisbon;;;Portugal;Europe;38,7077507;-9,1365919
+Little Rock;;Arkansas;USA;North America;34,7349971;-92,3253320
 Lodz;;;Poland;Europe;51,7687323;19,4569911
 Logan;;Utah;USA;North America;40,1075089;-89,3768539
 London;;;UK;Europe;51,4893335;-0,1440551
+Los Altos;San Francisco Bay Area;California;USA;North America;37,3852200;-122,1141300
 Los Angeles;;California;USA;North America;34,0536909;-118,2427660
 Los Gatos;San Francisco Bay Area;California;USA;North America;37,2266110;-121,9746797
 Madison;;Wisconsin;USA;North America;43,0747610;-89,3837613
 Madrid;;;Spain;Europe;40,4167047;-3,7035825
-Malm√∂;;;Sweden;Europe;55,6052931;13,0001566
+Malmö;;;Sweden;Europe;55,6052931;13,0001566
 Manchester;;;UK;Europe;53,4794892;-2,2451148
 Melbourne;;;Australia;Oceana;-37,8142454;144,9631732
 Memphis;;Tennessee;USA;North America;35,1460249;-90,0517638
@@ -194,7 +196,7 @@ Toronto;;;Canada;North America;43,6534817;-79,3839347
 Vancouver;;;Canada;North America;49,2608724;-123,1139520
 Vienna;;;Austria;Europe;48,2083537;16,3725042
 Vilnius;;;Lithuania;Europe;54,6870458;25,2829111
-Walldorf;;Baden-W√ºrtemberg;Germany;Europe;49,3038134;8,6433518
+Walldorf;;Baden-Würtemberg;Germany;Europe;49,3038134;8,6433518
 Walnut;San Francisco Bay Area;California;USA;North America;"	37,910076";-122,0651860
 Walnut Creek;San Francisco Bay Area;California;USA;North America;37,9100760;-122,0651860
 Waltham;;Massachusetts;USA;North America;42,3756401;-71,2358004
