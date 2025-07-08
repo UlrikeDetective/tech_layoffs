@@ -1661,7 +1661,7 @@
 1660;Byju's;Bengaluru;0;0;India;Asia;500;2024-04-02;3,0;16667 ;16167 ;Education;Private Equity;;2024;12,98815675;77,62260004
 1661;Lentra;Pune;0;0;India;Asia;;2024-04-02;;;;Fintech;Series B;104;2024;18,521428;73,8544541
 1662;Thepeer;Lagos;0;0;Nigeria;Africa;;2024-04-02;100,0;;0 ;Finance;Seed;2;2024;6,4550575;3,3941795
-2180;Brave Care;Portland;0;Oregon;United States;North America;;2024-04-02;100,0;;0 ;Healthcare;Series B;$43;2024;45,5202471;-122,674194
+2180;Brave Care;Portland;0;Oregon;USA;North America;;2024-04-02;100,0;;0 ;Healthcare;Series B;$43;2024;45,5202471;-122,674194
 2181;Epicery;Paris;0;0;France;Europe;;2024-04-02;100,0;;0 ;Food;Acquired;$7;2024;48,8588897;2,320041022
 1663;Amazon;Seattle;0;Washington;USA;North America;;2024-04-03;;;;IT Services;Unknown;;2024;47,6038321;-122,330062
 1664;CoRover;Bengaluru;0;0;India;Asia;;2024-04-03;;;;IT Services;Unknown;;2024;12,98815675;77,62260004
@@ -2079,106 +2079,106 @@
 1981;BionicHIVE;Sderot;0;0;Israel;Asia;;2024-12-22;100,0;0 ;0 ;Hardware;Unknown;;2024;31,52688699;34,59479517
 1980;Lilium;Munich;0;Bayern;Germany;Europe;1000;2024-12-23;100,0;1000 ;0 ;Aerospace;Post-IPO;$1,400;2024;48,1371079;11,5753822
 1979;Bench;Vancouver;0;0;Canada;North America;450;2024-12-27;100,0;450 ;0 ;Finance;Series C;$10 ;2024;49,2608724;-123,113952
-2179;Level;New York City;0;New York;United States;North America;;2025-01-02;100,0;;0 ;Finance;Series B;$27;2025;40,7127281;-74,0060152
+2179;Level;New York City;0;New York;USA;North America;;2025-01-02;100,0;;0 ;Finance;Series B;$27;2025;40,7127281;-74,0060152
 2178;SolarEdge;Tel Aviv;0;0;Israel;Asia;400;2025-01-06;;;;Energy;Post-IPO;$155;2025;32,0852997;34,7818064
-2174;Altruist;San Francisco;San Francisco Bay Area;California;United States;North America;37;2025-01-07;10,0;370 ;333 ;Finance;Series E;$449;2025;37,7792588;-122,4193286
-2175;Aqua Security;Boston;0;Massachusetts;United States;North America;;2025-01-07;;;;Security;Series E;$325;2025;42,3554334;-71,060511
-2176;Cloud Software Group;Santa Clara;San Francisco Bay Area;California;United States;North America;;2025-01-07;;;;Other;Unknown;;2025;37,354107;-121,955238
+2174;Altruist;San Francisco;San Francisco Bay Area;California;USA;North America;37;2025-01-07;10,0;370 ;333 ;Finance;Series E;$449;2025;37,7792588;-122,4193286
+2175;Aqua Security;Boston;0;Massachusetts;USA;North America;;2025-01-07;;;;Security;Series E;$325;2025;42,3554334;-71,060511
+2176;Cloud Software Group;Santa Clara;San Francisco Bay Area;California;USA;North America;;2025-01-07;;;;Other;Unknown;;2025;37,354107;-121,955238
 2177;Microsoft;Seattle;0;Washington;USA;North America;;2025-01-07;;;;Other;Post-IPO;$1;2025;47,6038321;-122,330062
-2126;Redfin;Seattle;0;Washington;United States;North America;450;2025-01-09;;;;Real Estate;Post-IPO;$320;2025;47,6038321;-122,330062
-2172;Icon;Austin;0;Texas;United States;North America;114;2025-01-09;;;;Construction;Series B;$451;2025;30,2711286;-97,7436995
+2126;Redfin;Seattle;0;Washington;USA;North America;450;2025-01-09;;;;Real Estate;Post-IPO;$320;2025;47,6038321;-122,330062
+2172;Icon;Austin;0;Texas;USA;North America;114;2025-01-09;;;;Construction;Series B;$451;2025;30,2711286;-97,7436995
 2169;Wayfair;Berlin;0;Berlin;Germany;Europe;730;2025-01-10;3,0;24333 ;23603 ;Retail;Post-IPO;$1700;2025;52,5170365;13,3888599
-2170;Pandion;Seattle;0;Washington;United States;North America;63;2025-01-10;100,0;63 ;0 ;Logistics;Series B;$76;2025;47,6038321;-122,330062
-2171;Zillow;Seattle;0;Washington;United States;North America;;2025-01-10;;;;Real Estate;Post-IPO;$97;2025;47,6038321;-122,330062
-2167;Alza;New York City;0;New York;United States;North America;;2025-01-13;100,0;;0 ;Finance;Seed;$7;2025;40,7127281;-74,0060152
+2170;Pandion;Seattle;0;Washington;USA;North America;63;2025-01-10;100,0;63 ;0 ;Logistics;Series B;$76;2025;47,6038321;-122,330062
+2171;Zillow;Seattle;0;Washington;USA;North America;;2025-01-10;;;;Real Estate;Post-IPO;$97;2025;47,6038321;-122,330062
+2167;Alza;New York City;0;New York;USA;North America;;2025-01-13;100,0;;0 ;Finance;Seed;$7;2025;40,7127281;-74,0060152
 2168;Boozt;Malmö;0;0;Sweden;Europe;;2025-01-13;10,0;;;Retail;Post-IPO;$56;2025;55,6052931;13,0001566
-2164;Advisor Credit Exchange;Philadelphia;0;Pennsylvania;United States;North America;;2025-01-14;100,0;;0 ;Finance;Unknown;$31;2025;39,9527237;-75,1635262
-2166;TechCrunch;San Francisco;San Francisco Bay Area;California;United States;North America;;2025-01-14;;;;Media;Acquired;;2025;37,7792588;-122,4193286
+2164;Advisor Credit Exchange;Philadelphia;0;Pennsylvania;USA;North America;;2025-01-14;100,0;;0 ;Finance;Unknown;$31;2025;39,9527237;-75,1635262
+2166;TechCrunch;San Francisco;San Francisco Bay Area;California;USA;North America;;2025-01-14;;;;Media;Acquired;;2025;37,7792588;-122,4193286
 2161;HeyJobs;Berlin;0;Berlin;Germany;Europe;90;2025-01-15;;;;Recruiting;Series B;$62;2025;52,5170365;13,3888599
 2162;ShareChat;Bengaluru;0;0;India;Asia;27;2025-01-15;5,0;540 ;513 ;Marketing;Series D;$222;2025;12,98815675;77,62260004
-2163;Textio;Seattle;0;Washington;United States;North America;15;2025-01-15;;;;Recruiting;Unknown;$42;2025;47,6038321;-122,330062
+2163;Textio;Seattle;0;Washington;USA;North America;15;2025-01-15;;;;Recruiting;Unknown;$42;2025;47,6038321;-122,330062
 2158;Chrono24;Karlsruhe;0;Baden-Würtemberg;Germany;Europe;110;2025-01-16;24,0;458 ;348 ;Retail;Series C;$205;2025;49,0068705;8,4034195
 2159;Pocket FM;Bengaluru;0;0;India;Asia;75;2025-01-16;;;;Media;Series D;$212;2025;12,98815675;77,62260004
-2160;Aurora Solar;San Francisco;San Francisco Bay Area;California;United States;North America;58;2025-01-16;;;;Energy;Series D;$523;2025;37,7792588;-122,4193286
+2160;Aurora Solar;San Francisco;San Francisco Bay Area;California;USA;North America;58;2025-01-16;;;;Energy;Series D;$523;2025;37,7792588;-122,4193286
 2157;Unbabel;Lisbon;0;0;Portugal;Europe;66;2025-01-20;25,0;264 ;198 ;Support;Series C;$91;2025;38,7077507;-9,1365919
-2155;Stripe;San Francisco;San Francisco Bay Area;California;United States;North America;300;2025-01-21;3,0;10000 ;9700 ;Finance;Series I;$8700;2025;37,7792588;-122,4193286
+2155;Stripe;San Francisco;San Francisco Bay Area;California;USA;North America;300;2025-01-21;3,0;10000 ;9700 ;Finance;Series I;$8700;2025;37,7792588;-122,4193286
 2156;Turso;London;0;0;Canada;Europe;;2025-01-21;;;;Product;Seed;$7;2025;51,4893335;-0,144055085
 2154;Moon Active;Tel Aviv;0;0;Israel;Asia;;2025-01-27;;;;Consumer;Unknown;$425;2025;32,0852997;34,7818064
-2152;Amazon;Seattle;0;Washington;United States;North America;;2025-01-28;;;;Retail;Post-IPO;$8100;2025;47,6038321;-122,330062
-2153;Digital River;Minneapolis;0;Minnesota;United States;North America;122;2025-01-28;;;;Retail;Private Equity;$50;2025;44,9772995;-93,2654692
-2151;Placer.ai;Los Altos;San Francisco Bay Area;California;United States;North America;150;2025-01-29;18,0;833 ;683 ;Data;Unknown;$267;2025;37,38522;-122,11413
-2150;Cushion;San Francisco;San Francisco Bay Area;California;United States;North America;;2025-01-30;100,0;;0 ;Finance;Series A;$20;2025;37,7792588;-122,4193286
-2148;Salesforce;San Francisco;San Francisco Bay Area;California;United States;North America;1000;2025-02-03;1,0;100000 ;99000 ;Sales;Post-IPO;$65;2025;37,7792588;-122,4193286
-2149;Sure;New York City;0;New York;United States;North America;70;2025-02-03;;;;Finance;Series C;$123;2025;40,7127281;-74,0060152
-2142;Cruise;San Francisco;San Francisco Bay Area;California;United States;North America;1000;2025-02-04;50,0;2000 ;1000 ;Transportation;Acquired;$15000;2025;37,7792588;-122,4193286
-2143;Okta;San Francisco;San Francisco Bay Area;California;United States;North America;180;2025-02-04;3,0;6000 ;5820 ;Security;Post-IPO;$1200;2025;37,7792588;-122,4193286
-2144;AppsFlyer;San Francisco;San Francisco Bay Area;California;United States;North America;100;2025-02-04;7,0;1429 ;1329 ;Data;Unknown;$293;2025;37,7792588;-122,4193286
-2145;Asana;San Francisco;San Francisco Bay Area;California;United States;North America;100;2025-02-04;;;;Other;Post-IPO;$453;2025;37,7792588;-122,4193286
-2146;TripAdvisor;Boston;0;Massachusetts;United States;North America;75;2025-02-04;;;;Travel;Post-IPO;$3;2025;42,3554334;-71,060511
-2147;Intel;Sacramento;0;California;United States;North America;58;2025-02-04;;;;Hardware;Post-IPO;$12;2025;38,5810606;-121,493895
-2136;Workday;Pleasanton;San Francisco Bay Area;California;United States;North America;1750;2025-02-05;8,0;21875 ;20125 ;HR;Post-IPO;$230;2025;37,6624312;-121,8746789
-2137;Outbrain;New York City;0;New York;United States;North America;200;2025-02-05;;;;Marketing;Post-IPO;$394;2025;40,7127281;-74,0060152
-2138;Sonos;Santa Barbara;0;California;United States;North America;200;2025-02-05;12,0;1667 ;1467 ;Consumer;Post-IPO;$455;2025;34,4221319;-119,702667
+2152;Amazon;Seattle;0;Washington;USA;North America;;2025-01-28;;;;Retail;Post-IPO;$8100;2025;47,6038321;-122,330062
+2153;Digital River;Minneapolis;0;Minnesota;USA;North America;122;2025-01-28;;;;Retail;Private Equity;$50;2025;44,9772995;-93,2654692
+2151;Placer.ai;Los Altos;San Francisco Bay Area;California;USA;North America;150;2025-01-29;18,0;833 ;683 ;Data;Unknown;$267;2025;37,38522;-122,11413
+2150;Cushion;San Francisco;San Francisco Bay Area;California;USA;North America;;2025-01-30;100,0;;0 ;Finance;Series A;$20;2025;37,7792588;-122,4193286
+2148;Salesforce;San Francisco;San Francisco Bay Area;California;USA;North America;1000;2025-02-03;1,0;100000 ;99000 ;Sales;Post-IPO;$65;2025;37,7792588;-122,4193286
+2149;Sure;New York City;0;New York;USA;North America;70;2025-02-03;;;;Finance;Series C;$123;2025;40,7127281;-74,0060152
+2142;Cruise;San Francisco;San Francisco Bay Area;California;USA;North America;1000;2025-02-04;50,0;2000 ;1000 ;Transportation;Acquired;$15000;2025;37,7792588;-122,4193286
+2143;Okta;San Francisco;San Francisco Bay Area;California;USA;North America;180;2025-02-04;3,0;6000 ;5820 ;Security;Post-IPO;$1200;2025;37,7792588;-122,4193286
+2144;AppsFlyer;San Francisco;San Francisco Bay Area;California;USA;North America;100;2025-02-04;7,0;1429 ;1329 ;Data;Unknown;$293;2025;37,7792588;-122,4193286
+2145;Asana;San Francisco;San Francisco Bay Area;California;USA;North America;100;2025-02-04;;;;Other;Post-IPO;$453;2025;37,7792588;-122,4193286
+2146;TripAdvisor;Boston;0;Massachusetts;USA;North America;75;2025-02-04;;;;Travel;Post-IPO;$3;2025;42,3554334;-71,060511
+2147;Intel;Sacramento;0;California;USA;North America;58;2025-02-04;;;;Hardware;Post-IPO;$12;2025;38,5810606;-121,493895
+2136;Workday;Pleasanton;San Francisco Bay Area;California;USA;North America;1750;2025-02-05;8,0;21875 ;20125 ;HR;Post-IPO;$230;2025;37,6624312;-121,8746789
+2137;Outbrain;New York City;0;New York;USA;North America;200;2025-02-05;;;;Marketing;Post-IPO;$394;2025;40,7127281;-74,0060152
+2138;Sonos;Santa Barbara;0;California;USA;North America;200;2025-02-05;12,0;1667 ;1467 ;Consumer;Post-IPO;$455;2025;34,4221319;-119,702667
 2139;SRTX;Montreal;0;0;Canada;North America;140;2025-02-05;;;;Manufacturing;Unknown;$151;2025;45,5031824;-73,5698065
 2140;Tabnine;Tel Aviv;0;0;Israel;Asia;15;2025-02-05;18,0;83 ;68 ;AI;Series B;$57;2025;32,0852997;34,7818064
-2141;Hugging Face;New York City;0;New York;United States;North America;10;2025-02-05;4,0;250 ;240 ;AI;Series D;$395;2025;40,7127281;-74,0060152
-2134;Sprinklr;New York City;0;New York;United States;North America;500;2025-02-06;15,0;3333 ;2833 ;Support;Post-IPO;$429;2025;40,7127281;-74,0060152
+2141;Hugging Face;New York City;0;New York;USA;North America;10;2025-02-05;4,0;250 ;240 ;AI;Series D;$395;2025;40,7127281;-74,0060152
+2134;Sprinklr;New York City;0;New York;USA;North America;500;2025-02-06;15,0;3333 ;2833 ;Support;Post-IPO;$429;2025;40,7127281;-74,0060152
 2135;NanoLock;Tel Aviv;0;0;Israel;Asia;;2025-02-06;100,0;;0 ;Security;Series B;$18;2025;32,0852997;34,7818064
-2130;Meta;Menlo Park;San Francisco Bay Area;California;United States;North America;3600;2025-02-10;5,0;72000 ;68400 ;Consumer;Post-IPO;$26000;2025;37,4519671;-122,177992
-2131;Wise;Tampa Bay;0;Florida;United States;North America;300;2025-02-10;;;;Finance;Post-IPO;$300;2025;27,6886419;-82,5723193
-2132;Justworks;New York City;0;New York;United States;North America;200;2025-02-10;;;;HR;Unknown;$160;2025;40,7127281;-74,0060152
+2130;Meta;Menlo Park;San Francisco Bay Area;California;USA;North America;3600;2025-02-10;5,0;72000 ;68400 ;Consumer;Post-IPO;$26000;2025;37,4519671;-122,177992
+2131;Wise;Tampa Bay;0;Florida;USA;North America;300;2025-02-10;;;;Finance;Post-IPO;$300;2025;27,6886419;-82,5723193
+2132;Justworks;New York City;0;New York;USA;North America;200;2025-02-10;;;;HR;Unknown;$160;2025;40,7127281;-74,0060152
 2133;MessageBird;Amsterdam;0;0;Netherlands;Europe;120;2025-02-10;33,0;364 ;244 ;Other;Series C;$1100;2025;52,3730796;4,8924534
-2129;Unity;San Francisco;San Francisco Bay Area;California;United States;North America;;2025-02-11;;;;Other;Post-IPO;$1300;2025;37,7792588;-122,4193286
+2129;Unity;San Francisco;San Francisco Bay Area;California;USA;North America;;2025-02-11;;;;Other;Post-IPO;$1300;2025;37,7792588;-122,4193286
 2127;Zepz;London;0;0;United Kingdom;Europe;200;2025-02-12;20,0;1000 ;800 ;Finance;Series E;$700;2025;51,4893335;-0,144055085
-2128;Getaround;San Francisco;San Francisco Bay Area;California;United States;North America;;2025-02-12;;;;Transportation;Series D;$403;2025;37,7792588;-122,4193286
-2173;Redfin;Seattle;0;Washington;United States;North America;46;2025-02-12;;;;Real Estate;Post-IPO;$320;2025;47,6038321;-122,330062
-2123;Blue Origin;Seattle;0;Washington;United States;North America;1000;2025-02-13;10,0;10000 ;9000 ;Aerospace;Unknown;$167;2025;47,6038321;-122,330062
+2128;Getaround;San Francisco;San Francisco Bay Area;California;USA;North America;;2025-02-12;;;;Transportation;Series D;$403;2025;37,7792588;-122,4193286
+2173;Redfin;Seattle;0;Washington;USA;North America;46;2025-02-12;;;;Real Estate;Post-IPO;$320;2025;47,6038321;-122,330062
+2123;Blue Origin;Seattle;0;Washington;USA;North America;1000;2025-02-13;10,0;10000 ;9000 ;Aerospace;Unknown;$167;2025;47,6038321;-122,330062
 2124;Metro Africa Xpress;Lagos;0;0;Nigeria;Africa;150;2025-02-13;;;;Logistics;Unknown;$64;2025;6,4550575;3,3941795
-2125;Sophos;Oxford;0;0;United States;Europe;;2025-02-13;6,0;;;Security;Acquired;$125;2025;51,7520131;-1,2578499
+2125;Sophos;Oxford;0;0;USA;Europe;;2025-02-13;6,0;;;Security;Acquired;$125;2025;51,7520131;-1,2578499
 2122;Eviation Aircraft;Tel Aviv;0;0;Israel;Asia;;2025-02-14;;;;Aerospace;Acquired;$140;2025;32,0852997;34,7818064
 2121;Logically;Manchester;0;0;United Kingdom;Europe;40;2025-02-17;20,0;200 ;160 ;AI;Series A;$37;2025;53,4794892;-2,2451148
 2119;Vendease;Lagos;0;0;Nigeria;Africa;120;2025-02-19;44,0;273 ;153 ;Food;Series A;$43;2025;6,4550575;3,3941795
-2120;Riskified;New York City;0;New York;United States;North America;;2025-02-19;;;;Retail;Post-IPO;$229;2025;40,7127281;-74,0060152
-2118;SeatGeek;New York City;0;New York;United States;North America;150;2025-02-20;15,0;1000 ;850 ;Consumer;Series E;$400;2025;40,7127281;-74,0060152
-2116;Zendesk;San Francisco;San Francisco Bay Area;California;United States;North America;51;2025-02-21;;;;Support;Acquired;$85;2025;37,7792588;-122,4193286
+2120;Riskified;New York City;0;New York;USA;North America;;2025-02-19;;;;Retail;Post-IPO;$229;2025;40,7127281;-74,0060152
+2118;SeatGeek;New York City;0;New York;USA;North America;150;2025-02-20;15,0;1000 ;850 ;Consumer;Series E;$400;2025;40,7127281;-74,0060152
+2116;Zendesk;San Francisco;San Francisco Bay Area;California;USA;North America;51;2025-02-21;;;;Support;Acquired;$85;2025;37,7792588;-122,4193286
 2117;Electriq Global;Tel Aviv;0;0;Israel;Asia;;2025-02-21;100,0;;0 ;Energy;Unknown;$8;2025;32,0852997;34,7818064
-2114;Ibotta;Denver;0;Colorado;United States;North America;70;2025-02-22;8,0;875 ;805 ;Retail;Post-IPO;$93;2025;39,7392364;-104,984862
+2114;Ibotta;Denver;0;Colorado;USA;North America;70;2025-02-22;8,0;875 ;805 ;Retail;Post-IPO;$93;2025;39,7392364;-104,984862
 2115;NetEase;Tokyo;0;0;Japan;Asia;;2025-02-22;;;;Consumer;Post-IPO;;2025;35,6821936;139,762221
-2112;Skybox Security;San Jose;San Francisco Bay Area;California;United States;North America;300;2025-02-24;100,0;300 ;0 ;Security;Private Equity;$335;2025;37,3361663;-121,890591
-2113;HerMD;Cincinnati;0;Ohio;United States;North America;;2025-02-24;100,0;;0 ;Healthcare;Series A;$28;2025;39,1014537;-84,5124602
-2107;Flywire;Boston;0;Massachusetts;United States;North America;125;2025-02-26;;;;Finance;Series E;$263;2025;42,3554334;-71,060511
+2112;Skybox Security;San Jose;San Francisco Bay Area;California;USA;North America;300;2025-02-24;100,0;300 ;0 ;Security;Private Equity;$335;2025;37,3361663;-121,890591
+2113;HerMD;Cincinnati;0;Ohio;USA;North America;;2025-02-24;100,0;;0 ;Healthcare;Series A;$28;2025;39,1014537;-84,5124602
+2107;Flywire;Boston;0;Massachusetts;USA;North America;125;2025-02-26;;;;Finance;Series E;$263;2025;42,3554334;-71,060511
 2108;eBay;Tel Aviv;0;0;Israel;Asia;20;2025-02-26;;;;Retail;Post-IPO;$1200;2025;32,0852997;34,7818064
 2109;Commercetools;Munich;0;Bayern;Germany;Europe;;2025-02-26;10,0;;;Retail;Series C;$119;2025;48,1371079;11,5753822
-2110;Dayforce;Toronto;0;0;United States;North America;;2025-02-26;5,0;;;HR;Post-IPO;$40;2025;43,6534817;-79,3839347
-2111;Expedia;Seattle;0;Washington;United States;North America;;2025-02-26;;;;Travel;Post-IPO;$3300;2025;47,6038321;-122,330062
-2104;Autodesk;San Francisco;San Francisco Bay Area;California;United States;North America;1350;2025-02-27;9,0;15000 ;13650 ;Other;Post-IPO;;2025;37,7792588;-122,4193286
-2105;Digimarc;Portland;0;Oregon;United States;North America;90;2025-02-27;40,0;225 ;135 ;Other;Post-IPO;$105;2025;45,5202471;-122,674194
-2106;Google;Mountain View;San Francisco Bay Area;California;United States;North America;;2025-02-27;;;;Consumer;Post-IPO;$26;2025;37,3893889;-122,0832101
-2102;HP;Palo Alto;San Francisco Bay Area;California;United States;North America;2000;2025-02-28;;;;Hardware;Post-IPO;;2025;37,4443293;-122,1598465
-2103;Grubhub;San Francisco;San Francisco Bay Area;California;United States;North America;500;2025-02-28;23,0;2174 ;1674 ;Food;Acquired;$284;2025;37,7792588;-122,4193286
-2079;Automattic;San Francisco;San Francisco Bay Area;California;United States;North America;281;2025-03-02;16,0;1756 ;1475 ;Other;Series E;$986;2025;37,7792588;-122,4193286
+2110;Dayforce;Toronto;0;0;USA;North America;;2025-02-26;5,0;;;HR;Post-IPO;$40;2025;43,6534817;-79,3839347
+2111;Expedia;Seattle;0;Washington;USA;North America;;2025-02-26;;;;Travel;Post-IPO;$3300;2025;47,6038321;-122,330062
+2104;Autodesk;San Francisco;San Francisco Bay Area;California;USA;North America;1350;2025-02-27;9,0;15000 ;13650 ;Other;Post-IPO;;2025;37,7792588;-122,4193286
+2105;Digimarc;Portland;0;Oregon;USA;North America;90;2025-02-27;40,0;225 ;135 ;Other;Post-IPO;$105;2025;45,5202471;-122,674194
+2106;Google;Mountain View;San Francisco Bay Area;California;USA;North America;;2025-02-27;;;;Consumer;Post-IPO;$26;2025;37,3893889;-122,0832101
+2102;HP;Palo Alto;San Francisco Bay Area;California;USA;North America;2000;2025-02-28;;;;Hardware;Post-IPO;;2025;37,4443293;-122,1598465
+2103;Grubhub;San Francisco;San Francisco Bay Area;California;USA;North America;500;2025-02-28;23,0;2174 ;1674 ;Food;Acquired;$284;2025;37,7792588;-122,4193286
+2079;Automattic;San Francisco;San Francisco Bay Area;California;USA;North America;281;2025-03-02;16,0;1756 ;1475 ;Other;Series E;$986;2025;37,7792588;-122,4193286
 2101;ANS Commerce;Gurugram;0;0;India;Asia;;2025-03-02;100,0;;0 ;Retail;Acquired;$2;2025;28,4646148;77,0299194
 2099;Ola Electric;Bengaluru;0;0;India;Asia;1000;2025-03-03;;;;Transportation;Post-IPO;$1700;2025;12,98815675;77,62260004
-2100;Rec Room;Seattle;0;Washington;United States;North America;;2025-03-03;16,0;;;Consumer;Series F;$294;2025;47,6038321;-122,330062
-2098;LiveRamp;San Francisco;San Francisco Bay Area;California;United States;North America;65;2025-03-05;5,0;1300 ;1235 ;Marketing;Post-IPO;$16;2025;37,7792588;-122,4193286
-2096;Hewlett Packard Enterprise;Palo Alto;San Francisco Bay Area;California;United States;North America;2500;2025-03-06;5,0;50000 ;47500 ;Hardware;Post-IPO;$1400;2025;37,4443293;-122,1598465
-2097;TikTok;Dublin;0;0;United States;Europe;300;2025-03-06;;;;Consumer;Acquired;;2025;53,3493795;-6,2605593
+2100;Rec Room;Seattle;0;Washington;USA;North America;;2025-03-03;16,0;;;Consumer;Series F;$294;2025;47,6038321;-122,330062
+2098;LiveRamp;San Francisco;San Francisco Bay Area;California;USA;North America;65;2025-03-05;5,0;1300 ;1235 ;Marketing;Post-IPO;$16;2025;37,7792588;-122,4193286
+2096;Hewlett Packard Enterprise;Palo Alto;San Francisco Bay Area;California;USA;North America;2500;2025-03-06;5,0;50000 ;47500 ;Hardware;Post-IPO;$1400;2025;37,4443293;-122,1598465
+2097;TikTok;Dublin;0;0;USA;Europe;300;2025-03-06;;;;Consumer;Acquired;;2025;53,3493795;-6,2605593
 2095;Wayfair ;Boston;0;Massachusetts;Germany;North America;340;2025-03-07;;;;Retail;Post-IPO;$1700;2025;42,3554334;-71,060511
-2094;Zonar Systems;Seattle;0;Washington;United States;North America;;2025-03-09;;;;Logistics;Acquired;$50;2025;47,6038321;-122,330062
+2094;Zonar Systems;Seattle;0;Washington;USA;North America;;2025-03-09;;;;Logistics;Acquired;$50;2025;47,6038321;-122,330062
 2092;D-ID;Tel Aviv;0;0;Israel;Asia;22;2025-03-10;25,0;88 ;66 ;AI;Series B;$48;2025;32,0852997;34,7818064
 2093;Arrival;London;0;0;United Kingdom;Europe;;2025-03-10;100,0;;0 ;Transportation;Post-IPO;$629;2025;51,4893335;-0,144055085
-2091;ActiveFence;New York City;0;New York;United States;North America;22;2025-03-13;7,0;314 ;292 ;Security;Series B;$100;2025;40,7127281;-74,0060152
-2089;HelloFresh;Pleasanton;San Francisco Bay Area;California;United States;North America;273;2025-03-17;;;;Food;Post-IPO;$367;2025;37,6624312;-121,8746789
+2091;ActiveFence;New York City;0;New York;USA;North America;22;2025-03-13;7,0;314 ;292 ;Security;Series B;$100;2025;40,7127281;-74,0060152
+2089;HelloFresh;Pleasanton;San Francisco Bay Area;California;USA;North America;273;2025-03-17;;;;Food;Post-IPO;$367;2025;37,6624312;-121,8746789
 2090;Otorio;Tel Aviv;0;0;Israel;Asia;45;2025-03-17;56,0;80 ;35 ;Security;Acquired;;2025;32,0852997;34,7818064
-2087;Brightcove;Boston;0;Massachusetts;United States;North America;198;2025-03-19;33,0;600 ;402 ;Marketing;Acquired;$145;2025;42,3554334;-71,060511
-2088;Acxiom;Little Rock;0;Arkansas;United States;North America;130;2025-03-19;3,0;4333 ;4203 ;Marketing;Post-IPO;;2025;34,73499706;-92,32533203
-2084;Block;Oakland;San Francisco Bay Area;California;United States;North America;931;2025-03-25;8,0;11638 ;10707 ;Finance;Post-IPO;$150;2025;37,8044557;-122,271356
-2085;Niantic;San Francisco;San Francisco Bay Area;California;United States;North America;68;2025-03-25;;;;Other;Series D;$770;2025;37,7792588;-122,4193286
-2086;Prefect;Washington DC;0;District of Columbia;United States;North America;20;2025-03-25;;;;Data;Series B;$47;2025;38,8950368;-77,0365427
-2083;Palantir;Denver;0;Colorado;United States;North America;120;2025-03-27;;;;Data;Post-IPO;$3000;2025;39,7392364;-104,984862
+2087;Brightcove;Boston;0;Massachusetts;USA;North America;198;2025-03-19;33,0;600 ;402 ;Marketing;Acquired;$145;2025;42,3554334;-71,060511
+2088;Acxiom;Little Rock;0;Arkansas;USA;North America;130;2025-03-19;3,0;4333 ;4203 ;Marketing;Post-IPO;;2025;34,73499706;-92,32533203
+2084;Block;Oakland;San Francisco Bay Area;California;USA;North America;931;2025-03-25;8,0;11638 ;10707 ;Finance;Post-IPO;$150;2025;37,8044557;-122,271356
+2085;Niantic;San Francisco;San Francisco Bay Area;California;USA;North America;68;2025-03-25;;;;Other;Series D;$770;2025;37,7792588;-122,4193286
+2086;Prefect;Washington DC;0;District of Columbia;USA;North America;20;2025-03-25;;;;Data;Series B;$47;2025;38,8950368;-77,0365427
+2083;Palantir;Denver;0;Colorado;USA;North America;120;2025-03-27;;;;Data;Post-IPO;$3000;2025;39,7392364;-104,984862
 2080;Canva;Sydney;0;0;Australia;Oceana;10;2025-03-31;;;;Consumer;Unknown;$2500;2025;-33,8698439;151,2082848
 2081;Northvolt;Stockholm;0;0;Sweden;Europe;2800;2025-03-31;62,0;4516 ;1716 ;Energy;Unknown;$13800;2025;59,3251172;18,0710935
-2082;2U;Washington DC;0;District of Columbia;United States;North America;;2025-03-31;;;;Education;Post-IPO;$426;2025;38,8950368;-77,0365427
+2082;2U;Washington DC;0;District of Columbia;USA;North America;;2025-03-31;;;;Education;Post-IPO;$426;2025;38,8950368;-77,0365427
 2083;Automattic;San Francisco;San Francisco Bay Area;California;USA;North America;281;2025-04-02;16,0;1756 ;1475 ;Other;Series E;986;2025;37,7792588;-122,4193286
 2084;Canva;Sydney;0;0;Australia;Oceana;10;2025-04-02;;;;Consumer;Unknown;2500;2025;-33,8698439;151,2082848
 2085;WhyHive;Melbourne;0;0;Australia;Oceana;;2025-04-02;100,0;;0 ;Data;Seed;;2025;-37,8142454;144,9631732
